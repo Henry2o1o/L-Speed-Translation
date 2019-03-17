@@ -210,8 +210,24 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="disable_debugging">Debugging deaktivieren</string>
     <string name="disable_debugging_explanation">"Deaktiviert die Debugging Lese- und Schreibvorgänge.
 Deaktiviert die Protokollierung, z.B. der ANR-(Anwendung ragiert nicht)Aktivität, sowie unbenötigter Anwendungs- und Ausgabeprotokolle."</string>
+    <string name="disable_motion_detection">Bewegungserkennung deaktivieren</string>
+    <string name="disable_motion_detection_activated">Bewegungserkennung deaktivieren eingeschaltet</string>
+    <string name="disable_motion_detection_deactivated">Bewegungserkennung deaktivieren ausgeschaltet</string>
     <string name="disable_motion_detection_explanation">"Verhindert das Aufwachen von Geräten aus dem Ruhestand, wenn es eine Bewegung erkennt (z. B. wenn das Gerät aufgenommen wird oder in der Tasche ist). Wenn dies aktiviert ist, kann der Bildschirm für einen Moment flackern oder blinken, dies liegt an dem System, das die Sensoren für spätere Verwendung wieder aktiviert.
 Dies kann auch wichtige Sensoren wie den Fingerabdrucksensor deaktivieren. Wenn Sie irgendwelche Probleme feststellen, deaktivieren Sie bitte diese Option."</string>
+    <string name="disable_multitasking_limitations">Multitasking-Einschränkungen deaktivieren</string>
+    <string name="disable_multitasking_limitations_activated">Multitasking-Einschränkungen deaktivieren eingeschalten</string>
+    <string name="disable_multitasking_limitations_deactivated">Multitasking-Einschränkungen deaktivieren ausgeschalten</string>
+    <string name="disable_multitasking_limitations_explanation">Deaktiviert ein leistungsbegrenzendes Flag im System, das auch die Akkulaufzeit verbessert. Dies kann zu Systeminstabilität führen.</string>
+    <string name="disable_when_charging">Beim Laden deaktivieren</string>
+    <string name="disable_when_charging_activated">Auschalten wenn Laden aktiviert</string>
+    <string name="disable_when_charging_deactivated">Ausschalten wenn Laden deaktiviert</string>
+    <string name="disable_when_charging_explanation">Schlummern wird nicht aggressiv aktiviert, wenn das Gerät aufgeladen wird, anstatt dass dieses Gerät standardmäßig das Systemverhalten ändert.</string>
+    <string name="dns_optimization">DNS-Optimierung</string>
+    <string name="dns_optimization_activated">DNS-Optimierung aktiviert</string>
+    <string name="dns_optimization_deactivated">rDNS-Optimierung deaktiviert</string>
+    <string name="dns_optimization_explanation">Ändert die Netzwerk-DNS mit der derzeit am häufigsten verwendeten DNS. Änderungen werden auf alle Netzwerkänderungen angewendet.</string>
+    <string name="done">Fertig</string>
     <string name="double_back_pressed">Zum Beenden erneut diese Taste antippen</string>
     <string name="empty_app">"Leere Anwendung:\u0009 %1$sMB 
 "</string>
