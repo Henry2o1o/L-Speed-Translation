@@ -54,7 +54,6 @@
     <string name="aggressive_doze_service_info">Service, der zur Gewährleistung der Gerätestabilität im aggressiven Schlummermodus verwendet wird.</string>
     <string name="alda">Aldanopolis</string>
     <string name="alda_hint">Engagierter Entwickler</string>
-
     <string name="allow_higher_youtube_resolution">Höhere YouTube-Auflösung zulassen</string>
     <string name="allow_higher_youtube_resolution_explanation">Ermöglichen Sie Geräten ohne High-End-Display die Wiedergabe von hochauflösenden Videos auf YouTube. Einige Geräte können Videos nicht mit höherer Auflösung wiedergeben und verursachen Probleme. In diesem Fall reduzieren Sie bitte die Auflösung.</string>
     <string name="animator_duration_scale">Animator duration scale</string>
@@ -106,7 +105,6 @@ This affects both the start delay and duration of all such animations."</string>
     <string name="battery_information">Akku-Informationen</string>
     <string name="battery_usage">Akkunutzung</string>
     <string name="beta_version_text">Jeden Tag neue Funktionen! nNimm jetzt am Beta-Programm teil!</string>
-
     <string name="beta_version_text">"Jeden Tag neue Funktionen!
 Jetzt als Beta-Tester anmelden!"</string>
     <string name="better_scrolling">Verbesserter Bildlauf</string>
@@ -139,7 +137,6 @@ Jetzt als Beta-Tester anmelden!"</string>
 "</string>
     <string name="changelog_text">Anzeigen der letzten Änderungen an der L-Geschwindigkeit</string>
     <string name="character_counter_content_description">Zeichenlimit %1$d von %2$d überschritten</string>
-
     <string name="charge_charger">Mit Ladegerät verbunden</string>
     <string name="charge_status">"Lade-Status: %1$s 
 "</string>
@@ -188,7 +185,6 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="cpu_tuner">CPU-Optimierungen</string>
     <string name="credits">L Speed Mitwirkende</string>
     <string name="current_entropy">Aktuelle Entropie</string>
-
     <string name="current_memory_status">Aktueller Speicherstatus:</string>
     <string name="current_minfree">Aktueller Minfree:</string>
     <string name="dalvik_cache_cleaning">Dalvik Cache bereinigen…</string>
@@ -197,7 +193,6 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="dark_theme_explanation">Schaltet zur dunklen Benutzeroberfläche um.</string>
     <string name="dashboard">Übersichtsseite</string>
     <string name="debuffer_hint">Gründer, Hauptentwickler</string>
-
     <string name="default_state">Standard</string>
     <string name="delete_question">Diese Sicherung löschen?</string>
     <string name="device">"Gerät: %1$s 
@@ -250,9 +245,13 @@ Für weitere Informationen siehe logcat"</string>
     <string name="extended_queue_activated">Erweiterte IO-Optimierungen aktiviert</string>
     <string name="extended_queue_deactivated">Erweiterte IO-Optimierungen deaktiviert</string>
     <string name="f4uzan_hint">Zurückgetretener Designer, das wars, Leute!</string>
+    <string name="fatal_exception">Schwerwiegende Ausnahme, bitte L Speed-log überprüfen</string>
     <string name="force_english">Englische Spracheinstellungen</string>
     <string name="foreground_app">"Vordergrund Anwendung:\u0009 %1$sMB 
 "</string>
+    <string name="foreground_app_explanation">Dies ist die App, die derzeit auf dem Bildschirm angezeigt wird.</string>
+    <string name="foreground_apps">Apps im Vordergrund</string>
+    <string name="free_ram">Frei:\u0009 %1$sMB</string>
     <string name="fstrim">TRIM-Befehl</string>
     <string name="fstrim_activated">TRIM-Befehl beim Systemstart aktiviert</string>
     <string name="fstrim_deactivated">TRIM-Befehl beim Systemstart deaktiviert</string>
@@ -262,18 +261,29 @@ Für weitere Informationen siehe logcat"</string>
     <string name="fstrim_on_boot">TRIM-Befehl beim Systemstart ausführen</string>
     <string name="fstrim_on_boot_explanation">Aktiviert den automatischen TRIM-Befehl bei jedem Systemstart.</string>
     <string name="fstrim_options">TRIM-Befehl-Optionen</string>
+    <string name="fstrim_scheduler">Fstrim-Planer</string>
+    <string name="fstrim_scheduler_activated">Fstrim Zeitplan alle %1$s</string>
+    <string name="fstrim_scheduler_deactivated">Fstrim-Planer ist deativiert</string>
     <string name="fstrim_scheduler_explanation">Zeitplan, wann FSTrim automatisch laufen soll.</string>
     <string name="fsync_activated">Fsync aktiviert</string>
     <string name="fsync_deactivated">Fsync deaktiviert</string>
     <string name="fsync_explanation">Fsync hält sicher geänderte Daten intakt bei einem Systemabsturz oder einer plötzlichen Abschaltung.</string>
     <string name="general">Generell</string>
+    <string name="google_help">Wie man Root bekommt (Name des Geräts)</string>
+    <string name="gov_tuner_time_change">Governor tuner schedule every %1$s</string>
     <string name="google_help">Rootanleitung (Name Deines Gerätes)</string>
+    <string name="governor_settings">Governor-Einstellungen</string>
     <string name="governor_tuner_balanced">Ausgeglichenes Governor-Profil aktiviert</string>
     <string name="governor_tuner_battery">Akku-Governor-Profil aktiviert</string>
     <string name="governor_tuner_default">Governor-Optimierungen deaktiviert</string>
     <string name="governor_tuner_explanation">Verbessert deinen aktiven Governor mit einem intelligenten Skalierungssystem für optimaler Leistung und Akkulaufzeit</string>
     <string name="governor_tuner_performance">Leistungs-Governor-Profil aktiviert</string>
+    <string name="governor_tuner_time">Ausführungsintervall</string>
     <string name="governor_tuner_time_explanation">Legen Sie ein Intervall fest, wann der Governor-Optimierer die Parameter auf den aktuellen Governor überprüfen und anwenden soll.</string>
+    <string name="govtuner_developers">GovTuner Entwickler</string>
+    <string name="gps_turned_on_turn_it_off_to_save_power">GPS ist eingeschaltet. Schalten Sie es aus, um Strom zu sparen.</string>
+    <string name="grant">Gewähren!</string>
+
     <string name="health">"Akku-Zustand: %1$s 
 "</string>
     <string name="health_dead">Schlecht</string>
@@ -287,6 +297,8 @@ Für weitere Informationen siehe logcat"</string>
     <string name="heap_optimization_explanation">Optimierung und Feinabstimmung des Heap-Size mit empfohlenen Werten, basierend auf RAM und Displaydichte.</string>
     <string name="hidden_app">"Versteckte Anwendung:\u0009 %1$sMB 
 "</string>
+    <string name="hidden_app_explanation">"Dies ist wiederum ein Prozess, der untätig (aber immer noch lebendig) ist, falls er von einer App benötigt wird, die am Leben ist und läuft."</string>
+    <string name="hidden_apps">Versteckte Apps</string>
     <string name="how_root">Wie kann ich mein Handy rooten?</string>
     <string name="how_root_explanation">Hier unten findest Du Webseiten, die Dir zeigen, wie Du Dein Handy rooten kannst.</string>
     <string name="id">ID: %1$s</string>
@@ -296,8 +308,17 @@ Für weitere Informationen siehe logcat"</string>
     <string name="improve_scrolling_deactivated">Verbesserter Bildlauf deaktiviert</string>
     <string name="init.d_why">Init.d Ordner ist leer, warum?</string>
     <string name="init.d_why_explanation">Die Anwendung benutzt init.d seit längerem nicht mehr, sondern Androids Autostart-Funktion.</string>
-    <string name="interfaceDiv">Interface</string>
+    <string name="initializing">Initialisierung</string>
+    <string name="instant">Sofort</string>
+    <string name="invite_friends">Lade deine Freunde ein, L Speed zu benutzen</string>
+    <string name="invite_text">Optimieren und beschleunigen Sie Ihr Gerät, testen Sie L Speed!</string>
     <string name="ioMod">Speicher-IO-Optimierungen</string>
+    <string name="io_blocks_optimization">I/O blocks optimization</string>
+    <string name="io_blocks_optimization_balanced">I/O blocks optimization set to balanced</string>
+    <string name="io_blocks_optimization_disabled">I/O blocks optimization disabled</string>
+    <string name="io_blocks_optimization_explanation">Boosts input/output operations to improve their performance.</string>
+    <string name="io_blocks_optimization_performance">I/O blocks optimization set to performance</string>
+    <string name="io_blocks_optimization_power_saving">I/O blocks optimization set to power saving</string>
     <string name="io_extended_queue">Erweiterte IO-Optimierungen</string>
     <string name="io_extended_queue_explanation">Erweitert die Eingabe- und Ausgabeabarbeitung. Dadurch entsteht etwas erhöhte Energieaufnahme, aber auch schnellere Lese- und Schreibgeschwindigkeit.</string>
     <string name="io_tweak">IO-Optimierungen</string>
