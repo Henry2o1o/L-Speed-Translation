@@ -136,14 +136,21 @@ Jetzt als Beta-Tester anmelden!"</string>
  - Aktualisierte zRAM-Optimierung
  - I/O-Boost umbenannt in I/O-Blöcke Optimierung mit Profilen
  - Kleinere Korrekturen und App-Verbesserungen
-    <string name="charge_charger">Verbunden mit Ladegerät</string>
+"</string>
+    <string name="changelog_text">Anzeigen der letzten Änderungen an der L-Geschwindigkeit</string>
+    <string name="character_counter_content_description">Zeichenlimit %1$d von %2$d überschritten</string>
+
+    <string name="charge_charger">Mit Ladegerät verbunden</string>
     <string name="charge_status">"Lade-Status: %1$s 
 "</string>
     <string name="charge_unplugged">Nicht angeschlossen</string>
     <string name="charge_usb">Mit USB verbunden</string>
+    <string name="charge_wireless">Verbunden mit einem drahtlosen Ladegerät</string>
     <string name="check_working">Wie kann ich überprüfen, ob die Anwendungen funktionieren oder nicht?</string>
     <string name="check_working_explanation">Sie können mit dem Log-Viewer überprüfen, was im Hintergrund geschieht (zugänglich über Menü-Taste), alternativ einsehbar im Protokoll in /data/data/com.paget96.lspeed/files/log</string>
+    <string name="cleaned_ram_of_old_caches">Bereinigter RAM von alten Caches</string>
     <string name="cleaner">System-Reiniger</string>
+    <string name="cleaner_service_info">Service, der zur Durchführung der Systemreinigungsfunktion verwendet wird.</string>
     <string name="clear_log">Protokolle löschen</string>
     <string name="color_navigation_bar">Navigationsleiste färben</string>
     <string name="common_google_play_services_enable_button">Aktivieren</string>
@@ -167,6 +174,9 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="configure_l_speed">L Speed konfigurieren</string>
     <string name="content_provider">"Inhaltsanbieter:\u0009 %1$sMB 
 "</string>
+    <string name="content_provider_explanation">This is apps that provide data (content) to the system.</string>
+    <string name="content_providers">Content provider</string>
+    <string name="cpu">CPU%1$s: %2$s</string>
     <string name="cpuMod">CPU-Optimierungen</string>
     <string name="cpu_information">CPU-Informationen</string>
     <string name="cpu_opt_activated">CPU-Optimierer aktiviert</string>
