@@ -34,7 +34,7 @@
     <string name="action_reboot_bootloader">Neustart zum Bootloader</string>
     <string name="action_reboot_recovery">Neustart zum Recovery</string>
     <string name="action_restart_system_ui">Neustart System UI</string>
-    <string name="action_soft_reboot">Softreboot</string>
+    <string name="action_soft_reboot">Soft-Reboot</string>
     <string name="activate_1080p_resolution">1080p-Auflösung zulassen aktiviert</string>
     <string name="activate_1440p_resolution">1440p-Auflösung zulassen aktiviert</string>
     <string name="activate_480p_resolution">480p-Auflösung zulassen aktiviert</string>
@@ -62,9 +62,9 @@ This affects both the start delay and duration of all such animations."</string>
     <string name="animator_duration_scale_set">Animator duration scale set to %1$s</string>
     <string name="another_example">Ein weiteres Beispiel</string>
     <string name="another_example_explanation">Nahezu jede L Speed-Optimierung besitzt eine Erläuterung, die durch längeres Antippen erscheint.</string>
-    <string name="app_cache_cleaned">Anwendungszwischenspeicher gereinigt</string>
-    <string name="app_cache_cleaner">Reinige Anwendungszwischenspeicher</string>
-    <string name="app_cache_cleaner_explanation">Entfernt von Anwendungen erstellte und nicht benötigte Zwischenspeicherdateien (Zwischenspeicherabbilder, usw…).</string>
+    <string name="app_cache_cleaned">Appszwischenspeicher gereinigt</string>
+    <string name="app_cache_cleaner">Reinige Appszwischenspeicher</string>
+    <string name="app_cache_cleaner_explanation">Entfernt von Apps erstellte und nicht benötigte Zwischenspeicherdateien (Zwischenspeicherabbilder, usw…).</string>
     <string name="app_cache_cleaning">App-Cache reinigen…</string>
     <string name="app_cache_found">%1$s im App-Cache gefunden</string>
     <string name="app_cache_not_found">Nichts im App-Cache gefunden</string>
@@ -73,7 +73,7 @@ This affects both the start delay and duration of all such animations."</string>
     <string name="app_intro_done_button">FERTIG</string>
     <string name="app_intro_next_button">WEITER</string>
     <string name="app_intro_skip_button">ÜBERSPRINGEN</string>
-    <string name="application">Anwendung</string>
+    <string name="application">Apps</string>
     <string name="apply_on_boot">Beim Booten anwenden</string>
     <string name="array_entries_aggressive">Aggressiv</string>
     <string name="array_entries_balanced">Ausgeglichen</string>
@@ -143,7 +143,7 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="charge_unplugged">Nicht angeschlossen</string>
     <string name="charge_usb">Mit USB verbunden</string>
     <string name="charge_wireless">Verbunden mit einem drahtlosen Ladegerät</string>
-    <string name="check_working">Wie kann ich überprüfen, ob die Anwendungen funktionieren oder nicht?</string>
+    <string name="check_working">Wie kann ich überprüfen, ob die Apps funktionieren oder nicht?</string>
     <string name="check_working_explanation">Sie können mit dem Log-Viewer überprüfen, was im Hintergrund geschieht (zugänglich über Menü-Taste), alternativ einsehbar im Protokoll in /data/data/com.paget96.lspeed/files/log</string>
     <string name="cleaned_ram_of_old_caches">Bereinigter RAM von alten Caches</string>
     <string name="cleaner">System-Reiniger</string>
@@ -204,7 +204,7 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="disable_debug_deactivated">Debugging(aus) deaktiviert</string>
     <string name="disable_debugging">Debugging deaktivieren</string>
     <string name="disable_debugging_explanation">"Deaktiviert die Debugging Lese- und Schreibvorgänge.
-Deaktiviert die Protokollierung, z.B. der ANR-(Anwendung ragiert nicht)Aktivität, sowie unbenötigter Anwendungs- und Ausgabeprotokolle."</string>
+Deaktiviert die Protokollierung, z.B. der ANR-(App ragiert nicht)Aktivität, sowie unbenötigter Apps- und Ausgabeprotokolle."</string>
     <string name="disable_motion_detection">Bewegungserkennung deaktivieren</string>
     <string name="disable_motion_detection_activated">Bewegungserkennung deaktivieren eingeschaltet</string>
     <string name="disable_motion_detection_deactivated">Bewegungserkennung deaktivieren ausgeschaltet</string>
@@ -247,7 +247,7 @@ Für weitere Informationen siehe logcat"</string>
     <string name="f4uzan_hint">Zurückgetretener Designer, das wars, Leute!</string>
     <string name="fatal_exception">Schwerwiegende Ausnahme, bitte L Speed-log überprüfen</string>
     <string name="force_english">Englische Spracheinstellungen</string>
-    <string name="foreground_app">"Vordergrund Anwendung:\u0009 %1$sMB 
+    <string name="foreground_app">"Vordergrund App:\u0009 %1$sMB 
 "</string>
     <string name="foreground_app_explanation">Dies ist die App, die derzeit auf dem Bildschirm angezeigt wird.</string>
     <string name="foreground_apps">Apps im Vordergrund</string>
@@ -295,7 +295,7 @@ Für weitere Informationen siehe logcat"</string>
     <string name="heap_optimization_activated">Heap-Optimierungen aktiviert</string>
     <string name="heap_optimization_deactivated">Heap-Optimierungen deaktiviert</string>
     <string name="heap_optimization_explanation">Optimierung und Feinabstimmung des Heap-Size mit empfohlenen Werten, basierend auf RAM und Displaydichte.</string>
-    <string name="hidden_app">"Versteckte Anwendung:\u0009 %1$sMB 
+    <string name="hidden_app">"Versteckte App:\u0009 %1$sMB 
 "</string>
     <string name="hidden_app_explanation">"Dies ist wiederum ein Prozess, der untätig (aber immer noch lebendig) ist, falls er von einer App benötigt wird, die am Leben ist und läuft."</string>
     <string name="hidden_apps">Versteckte Apps</string>
@@ -306,7 +306,7 @@ Für weitere Informationen siehe logcat"</string>
     <string name="improve_scrolling_activated">Verbesserter Bildlauf aktiviert</string>
     <string name="improve_scrolling_deactivated">Verbesserter Bildlauf deaktiviert</string>
     <string name="init.d_why">Init.d Ordner ist leer, warum?</string>
-    <string name="init.d_why_explanation">Die Anwendung benutzt init.d seit längerem nicht mehr, sondern Androids Autostart-Funktion.</string>
+    <string name="init.d_why_explanation">Die App benutzt init.d seit längerem nicht mehr, sondern Androids Autostart-Funktion.</string>
     <string name="initializing">Initialisierung</string>
     <string name="instant">Sofort</string>
     <string name="invite_friends">Lade deine Freunde ein, L Speed zu benutzen</string>
@@ -334,27 +334,43 @@ Für weitere Informationen siehe logcat"</string>
     <string name="junk_files_searching">Suche nach Junk-Dateien…</string>
     <string name="kernMod">Kernel-Modifikationen</string>
     <string name="kernel_information">Kernel-Informationen</string>
+    <string name="kernel_panic">Kernel-Panik</string>
+    <string name="kernel_panic_disabled">Kernel-Panik deaktiviert</string>
+    <string name="kernel_panic_enabled">Kernel-Panik aktiviert</string>
+    <string name="kernel_panic_explanation">Ermöglicht die Verwendung des Kernel-Fail-Safe-Mechanismus, wenn der Kernel instabil oder fehlerhaft ist</string>
     <string name="kill_media_server">Media-Server deaktivieren</string>
     <string name="kill_media_server_explanation">Gewaltsames Beenden des Media-Server-Prozesses. Dieser Befehl ermöglicht das Reduzieren von Abwärme und mindert Leistungseinbußen, die durch den Media-Server verursacht werden.</string>
+    <string name="killing_media_server">Medienserver killen…</string>
     <string name="ksm_activated">Kernel Samepage Merging aktiviert</string>
     <string name="ksm_deactivated">Kernel Samepage Merging deaktiviert</string>
     <string name="lSpeed_difference">Was unterscheidet L Speed von anderen Mods?</string>
-    <string name="lSpeed_difference_explanation">L Speed hat eine Menge von Optionen, die einzigartig in ihrer Anwendung sind.</string>
-    <string name="l_speed_dont_work_properly">"L Speed doesn't start after boot?"</string>
+    <string name="lSpeed_difference_explanation">L Speed hat eine Menge von Optionen, die einzigartig in ihrer App sind.</string>
+    <string name="l_speed_dont_work_properly">"L Speed startet nicht nach dem Start?"</string>
+    <string name="l_speed_is_running">L Speed läuft</string>
+    <string name="l_speed_support">L Speed support</string>
     <string name="l_speed_tips">L Speed Tipps</string>
     <string name="last_time_trimmed">Zuletzt den TRIM-Befehl ausgeführt</string>
+    <string name="later">Später</string>
     <string name="level">"Lade-Zustand: %1$s%% 
 "</string>
+    <string name="library_appintro_libraryDescription">App-Intro ist eine Bibliothek für ein cooles Intro in Ihren Android-Apps.</string>
+    <string name="library_appintro_libraryName">App-Intro</string>
     <string name="liquid_UI">Optimierte Benutzeroberfläche</string>
     <string name="liquid_UI_explanation">Verbessert die Leistung der Benutzeroberfläche zulasten der Akkuausdauer.</string>
     <string name="liquid_ui_activated">Optimierte Benutzeroberfläche aktiviert</string>
     <string name="liquid_ui_deactivated">Optimierte Benutzeroberfläche deaktiviert</string>
+    <string name="lmk_fast_run">LMK Schnelllauf</string>
+    <string name="lmk_fast_run_activated">LMK Schnelldurchlauf aktiviert</string>
+    <string name="lmk_fast_run_deactivated">LMK Schnelldurchlauf deaktiviert</string>
+    <string name="lmk_fast_run_explanation">Ermöglicht die schnelle Rückgewinnung von RAM-Ressourcen bei Bedarf. Dies kann einen kleinen Einfluss auf den Akku haben, aber eine etwas bessere RAM-Verwaltung.</string>
     <string name="lnet">LNET-Optimierungen</string>
     <string name="logs_no_save">Keine Protokolle gefunden. Es wurde nichts gespeichert.</string>
     <string name="logs_noexists">Protokolle existieren nicht. Es werden keine Skripte ausgeführt</string>
     <string name="logs_saved">Protokolle wurden gespeichert</string>
     <string name="logs_view">Protokolle anzeigen</string>
     <string name="long_tap">Das Tippen auf den Info-Button hinter einer Option öffnet eine Information oder Beschreibung der Optimierung.</string>
+    <string name="long_tap_sec">Sie können weiterhin auf die Infotaste tippen, um die Beschreibung der Optionen anzuzeigen. Diese Optionen können später geändert werden.</string>
+    <string name="low_ram_flag">Wenig RAM-Flag</string>
     <string name="low_ram_flag_activated">Wenig RAM Flag aktiviert</string>
     <string name="low_ram_flag_deactivated">Wenig RAM Flag deaktiviert</string>
     <string name="low_ram_flag_explanation">"Diese Option optimiert die Dalvik-Heap-Speicherzuweisungen, es schaltet auch mehrere Low-RAM-Flags im System ein, die spezielle Effekte wie umfangreiche Animationen und Statusbar-Tönung deaktivieren.
@@ -365,12 +381,36 @@ Es kann auch den Energieverbrauch von einigen Apps reduzieren."</string>
 "</string>
     <string name="mcps">Mehrkern-Stromsparen</string>
     <string name="mcps_explanation">Ordnet Rechenoperationen den wenigsten CPU-Kernen wie möglich zu, um Energie zu sparen.</string>
+    <string name="mcps_disabled">Multicore-Energiesparmodus ist deaktiviert</string>
+    <string name="mcps_enabled">Multicore-Energiesparmodus ist aktiviert</string>
+    <string name="mcps_explanation">"Groups CPU tasks so that they're done using the smallest number of cores possible, possibly saving battery life."</string>
     <string name="media_server_killed">Media-Server erfolgreich beendet</string>
     <string name="memManage">Speicherverwaltungs-Optimierungen</string>
+    <string name="memory_cleaned">"%1$sMB Speicher freigegeben.
+%2$sMB Speicher ist jetzt verfügbar."</string>
     <string name="memory_information">Speicher-Informationen</string>
+    <string name="min_10">10 Min</string>
+    <string name="min_120">2 Std</string>
+    <string name="min_1440">24 Std</string>
+    <string name="min_240">4 Std</string>
+    <string name="min_3">3 Min</string>
+    <string name="min_30">30 Min</string>
+    <string name="min_480">8 Std</string>
+    <string name="min_60">60 Min</string>
+    <string name="min_720">12 Std</string>
+    <string name="min_free_kbytes">"Min. freie KBytes:\u0009 %1$sKB 
+"</string>
+    <string name="mobile_data_turned_on_turn_it_off_to_save_power">Mobile data turned on. Turn it off to save power</string>
+    <string name="monochrome">Monochrome</string>
+    <string name="monochrome_activated">Monochrome aktiviert</string>
+    <string name="monochrome_deactivated">Monochrome deaktiviert</string>
+    <string name="monochrome_explanation">Systemweite Monochromie (schwarz/weiß) des Displays aktivieren</string>
     <string name="more_example">Mehrere Beispiele</string>
-    <string name="more_example_explanation">Fahren sie nun fort. Diese Beispiele werden nur verwendet, um zu zeigen, wie die Einstellungen dieser Anwendung funktionieren.</string>
+    <string name="more_example_explanation">Fahren sie nun fort. Diese Beispiele werden nur verwendet, um zu zeigen, wie die Einstellungen dieser App funktionieren.</string>
+    <string name="mpdecision_activated">MPDecision ist aktiviert</string>
+    <string name="mpdecision_deactivated">MPDecision ist deaktiviert</string>
     <string name="mpdecision_explanation">Qualcomm´s Hotplug-Mechanismus, ordnet und schaltet dynamisch den CPU-Kern-Zustand. Wenn es aktiviert ist, können Probleme bei der Konfiguration der CPU-Frequenzen auftreten.</string>
+    <string name="mtrl_chip_close_icon_content_description">Entferne %1$s</string>
     <string name="name_backup">Bitte Name für die Sicherung eingeben</string>
     <string name="netMod">LNET-Tricks</string>
     <string name="netOpt">LNET-Optimierungen</string>
@@ -405,7 +445,7 @@ Großer NET-Zwischenspeicher erhöht den Zwischenspeicher merklich, so dass beim
     <string name="peter_hint">Teilzeitig engagierter Entwickler</string>
     <string name="please_wait">Bitte warten…</string>
     <string name="pop_req_root">L Speed benötigt Root-Zugriff</string>
-    <string name="prevent_conflict_explanation">"Sie müssen möglicherweise L Speed der Whitelist (Erlaubenliste) der Speicherbereinigung, des Autostarts, des Ruhezustands oder ähnlich funktionierenden Anwendungen oder Funktionen auf Ihrem Gerät hinzufügen.
+    <string name="prevent_conflict_explanation">"Sie müssen möglicherweise L Speed der Whitelist (Erlaubenliste) der Speicherbereinigung, des Autostarts, des Ruhezustands oder ähnlich funktionierenden Apps oder Funktionen auf Ihrem Gerät hinzufügen.
 Hier sind einige dieser Funktion auf Ihrem Gerät, wo Sie L Speed auf die Whitelist setzen können:
 
 Samsung: Einstellungen -> Sicherheit -> Auto-Start
@@ -427,11 +467,11 @@ Berechnet die LMK-Einstellungen(LowMemoryKiller) basierend auf dem Arbeitsspeich
 
 Standard - Standard Gerätekonfiguration.
 
-Multitasking - Hält so viele Anwendungen wie möglich im Arbeitsspeicher.
+Multitasking - Hält so viele Apps wie möglich im Arbeitsspeicher.
 
 Balanciert - Stellt ein Gleichgewicht zwischen Multitasking- und Spieleprofil (Gaming) her.
 
-Gaming - Hält so wenig Anwendungen wie möglich im Arbeitsspeicher, um die Leistung ohne Einbuße für Spiele bereitzustellen."</string>
+Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung ohne Einbuße für Spiele bereitzustellen."</string>
     <string name="ram_manager_gaming">Gaming Profil aktiviert</string>
     <string name="ram_manager_multitask">Multitasking Profil aktiviert</string>
     <string name="ram_manager_options">RAM-Manager-Optionen</string>
@@ -525,21 +565,21 @@ Gaming - Hält so wenig Anwendungen wie möglich im Arbeitsspeicher, um die Leis
     <string name="temp">Temperatur:</string>
     <string name="time_boot_delay_settings">Anwenden während der Startverzögerung</string>
     <string name="translation">Übersetzung</string>
-    <string name="translation_text">Helfen Sie mir bei der Übersetzung dieser Anwendung</string>
+    <string name="translation_text">Helfen Sie mir bei der Übersetzung dieser App</string>
     <string name="try_it_here">Es kann hier ausprobiert werden.</string>
     <string name="uiOpt">Optimierung der Benutzeroberfläche</string>
     <string name="unknown">Unbekannt</string>
     <string name="usage_with_mods">Kann ich es mit anderen Mods benutzen?</string>
     <string name="usage_with_mods_explanation">Nein, es besteht die Gefahr, dass es zusammen mit anderen Mods zu Konflikten kommt.</string>
-    <string name="visible_app">"Sichbare Anwendung:\u0009 %1$sMB 
+    <string name="visible_app">"Sichbare App:\u0009 %1$sMB 
 "</string>
     <string name="volt">Spannung: %1$s mV</string>
     <string name="wakelocks">Wakelocks</string>
     <string name="welcome_to_l_speed">Willkommen bei L Speed</string>
-    <string name="what_can_do">Was sind die Anwendungsbereiche von L Speed?</string>
+    <string name="what_can_do">Was sind die Appbereiche von L Speed?</string>
     <string name="what_can_do_explanation">Dein Gerät kann allgemein auf Geschwindigkeit und Akkulaufzeit optimiert werden.</string>
     <string name="what_is_lspeed">Was ist L Speed?</string>
-    <string name="what_is_lspeed_explanation">L Speed ist eine Anwendung, die Systemmodifikationen und -optimierungen kombiniert.</string>
+    <string name="what_is_lspeed_explanation">L Speed ist eine App, die Systemmodifikationen und -optimierungen kombiniert.</string>
     <string name="why_root">Warum benötigt es Root?</string>
     <string name="why_root_explanation">L Speed benötigt Root, weil es Systemdateien modifizieren muss, die mit einem ungerooteten Handy nicht geändert werden können.</string>
     <string name="wipe_cache">Lösche Zwischenspeicher-Partition</string>
