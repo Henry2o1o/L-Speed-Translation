@@ -178,6 +178,8 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="content_providers">Content provider</string>
     <string name="cpu">CPU%1$s: %2$s</string>
     <string name="cpuMod">CPU-Optimierungen</string>
+    <string name="cpu_hotplugs">CPU-Hotplugs</string>
+    <string name="cpu_info">CPU-Info</string>
     <string name="cpu_information">CPU-Informationen</string>
     <string name="cpu_opt_activated">CPU-Optimierer aktiviert</string>
     <string name="cpu_opt_deactivated">CPU-Optimierer deaktiviert</string>
@@ -185,12 +187,18 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="cpu_optimizer_explanation">Verbessert und optimiert die Prozessorleistung. Dieses kann zu erhöhter Energieaufnahme führen.</string>
     <string name="cpu_tuner">CPU-Optimierungen</string>
     <string name="credits">L Speed Mitwirkende</string>
+    <string name="current_entropy">Aktuelle Entropie</string>
+
     <string name="current_memory_status">Aktueller Speicherstatus:</string>
-    <string name="current_minfree">Minfree-Informationen:</string>
-    <string name="dalvik_clear">Dalvik-Zwischenspeicher gereinigt</string>
-    <string name="dark_theme">Dunkle Benutzeroberfäche</string>
+    <string name="current_minfree">Aktueller Minfree:</string>
+    <string name="dalvik_cache_cleaning">Dalvik Cache bereinigen…</string>
+    <string name="dalvik_clear">Dalvik-Zwischenspeicher bereinigt</string>
+    <string name="dark_theme">Dunkles Thema</string>
     <string name="dark_theme_explanation">Schaltet zur dunklen Benutzeroberfläche um.</string>
     <string name="dashboard">Übersichtsseite</string>
+    <string name="debuffer_hint">Gründer, Hauptentwickler</string>
+
+    <string name="default_state">Standard</string>
     <string name="delete_question">Diese Sicherung löschen?</string>
     <string name="device">"Gerät: %1$s 
 "</string>
