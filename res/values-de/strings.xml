@@ -424,25 +424,42 @@ Es kann auch den Energieverbrauch von einigen Apps reduzieren."</string>
 Kleiner NET-Zwischenspeicher erhöht vernünftig den Zwischenspeicher je nach Verbindungstyp (3G, WiFi, LTE, Edge, UMTS)
 Großer NET-Zwischenspeicher erhöht den Zwischenspeicher merklich, so dass beim Surfen im Internet eine erhöhte Energieaufnahme festzustellen ist."</string>
     <string name="net_speed_explanation">Verbessere die Upload- und Download-Geschwindigkeit durch das Reduzieren von tx_queue_len im Kernel. Diese Option kann die Lebensdauer des Akkus geringfügig beeinflussen.</string>
+    <string name="net_speed_plus_activated">NET Speed+ aktiviert</string>
+    <string name="net_speed_plus_deactivated">NET Speed+ deaktiviert</string>
+    <string name="net_tcp_tweaks_activated">NET TCP tweaks aktiviert</string>
+    <string name="net_tcp_tweaks_deactivated">NET TCP tweaks deaktiviert</string>
     <string name="net_tcp_tweaks_explanation">Erhöht die Datenübertragungsgeschwindigkeit, indem sie kernelbezogene Funktionen wie IPv4 TCP-Algorithmus modifiziert und optimiert.</string>
     <string name="no">Nein</string>
+    <string name="no_busybox">"Ich kann die Busybox nicht finden!
+Bitte installieren Sie diese!"</string>
     <string name="not_trimmed">Keine TRIM Berichte</string>
     <string name="ok">Ok</string>
     <string name="on_boot">Ausführung der Skripte</string>
     <string name="on_boot_cancelled">Die Ausführung wurde abgebrochen</string>
     <string name="on_boot_executing">Ausführung…</string>
     <string name="on_boot_finished">Ihre Konfiguration wurde angewandt</string>
+    <string name="on_boot_nothing_to_execute">Nichts zum Ausführen</string>
     <string name="on_boot_time">Anwenden der Konfiguration in %d Sekunden</string>
+    <string name="on_package_replaced">Bitte starten Sie neu, um Updates für L Speed-Konfigurationen anzuwenden</string>
     <string name="oom_killer">OOM-Einstellung</string>
     <string name="oom_killer_disabled">OOM Einstellungen deaktiviert</string>
     <string name="oom_killer_enabled">OOM Einstellungen aktiviert</string>
+    <string name="oom_killer_explanation">"Verbessert die Leistung, wenn dem System der Speicherplatz ausgeht.
+
+ Aktiviert - Killt einfach die Aufgabe, die die Out-of-Memory-Bedingung ausgelöst hat. Dadurch entfällt der teure Task-Listen-Scan.
+
+ Deaktiviert - Der OOM-Killer durchsucht die gesamte Aufgabenliste und wählt eine Aufgabe aus, die auf Heuristiken basiert. Dies wählt normalerweise einen Rogue Memory-Hogging-Task aus, der beim Killen eine große Menge an Speicher freigibt."</string>
+    <string name="optimal_power_settings">Optimal power settings</string>
+    <string name="optimize">Optimize</string>
+    <string name="optimize_battery">Optimize Battery</string>
     <string name="otherDiv">Weiteres</string>
     <string name="paget_hint">Entwickler, Gründer, Betreiber</string>
     <string name="partition_remount">Partition neu einbinden</string>
     <string name="partition_remount_explanation">Bindet alle EXT4-Partitionen mit leistungsoptimierten Optionen wieder neu ein.</string>
     <string name="partition_remounting_activated">Partition neu einbinden aktiviert</string>
     <string name="partition_remounting_deactivated">Partition neu einbinden deaktiviert</string>
-    <string name="peter_hint">Teilzeitig engagierter Entwickler</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
+    <string name="peter_hint">Teilzeit engagierter Entwickler</string>
     <string name="please_wait">Bitte warten…</string>
     <string name="pop_req_root">L Speed benötigt Root-Zugriff</string>
     <string name="prevent_conflict_explanation">"Sie müssen möglicherweise L Speed der Whitelist (Erlaubenliste) der Speicherbereinigung, des Autostarts, des Ruhezustands oder ähnlich funktionierenden Apps oder Funktionen auf Ihrem Gerät hinzufügen.
@@ -458,8 +475,10 @@ Diese können je nach Version der installierten Firmware / Rom verfügbar sein o
     <string name="profile_battery">Akku-Profil aktiviert</string>
     <string name="profile_default">Profil auf Standard gesetzt</string>
     <string name="profile_performance">Leistungs-Profil aktiviert</string>
+    <string name="profiles">Profile</string>
     <string name="profiles_explanation">Wählen Sie vordefinierte L Speed-Geschwindigkeitsprofile, die bestimmen, in welcher Weise L Speed ausgeführt wird und die Systemeinstellungen ändert.</string>
-    <string name="quickTool">Schnelle Einstellungen</string>
+    <string name="provides_support_text">Bietet Unterstützung 24/7</string>
+    <string name="ram_manager">RAM-Verwaltung</string>
     <string name="ram_manager_balanced">Ausgeglichenes Profil aktiviert</string>
     <string name="ram_manager_default">Standard Profil aktiviert</string>
     <string name="ram_manager_explanation">"Verbessert die Geschwindigkeit bei geringem Arbeitsspeicherstand.
@@ -476,9 +495,14 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="ram_manager_multitask">Multitasking Profil aktiviert</string>
     <string name="ram_manager_options">RAM-Manager-Optionen</string>
     <string name="ram_manager_status">RAM-Manager-Status</string>
+    <string name="ram_status">RAM-Status</string>
     <string name="rate">Bewerten!</string>
     <string name="rate_app">Gefällt Ihnen L Speed? Bitte bewerten Sie die App!</string>
     <string name="reboot_confirm">Gerät neustarten?</string>
+    <string name="reboot_menu">Neustart-Menu</string>
+    <string name="reboot_required">Neustart erforderlich!</string>
+    <string name="recommended">Empfohlen</string>
+    <string name="recovery_reboot_confirm">Reboot to recovery?</string>
     <string name="reset_confirm">Aktuelle Konfiguration auf Standard zurücksetzen?</string>
     <string name="reset_to_default">Auf Standard zurücksetzen</string>
     <string name="restore_question">Wiederherstellung starten?</string>
@@ -490,6 +514,10 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="restrict_bluesleep_wakelock_activated">Beschränke Bluesleep-Wakelock aktiviert</string>
     <string name="restrict_bluesleep_wakelock_deactivated">Beschränke Bluesleep-Wakelock deaktiviert</string>
     <string name="restrict_bluesleep_wakelock_explanation">Diese Option beschränkt den bluesleep wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_ipa_ws">ipa_ws Wakelock einschränken</string>
+    <string name="restrict_ipa_ws_activated">ipa_ws Wakelock einschränken aktiviert</string>
+    <string name="restrict_ipa_ws_deactivated">ipa_ws Wakelock einschränken deaktiviert</string>
+    <string name="restrict_ipa_ws_explanation">Diese Option schränkt die Aktivierung des ipa_ws Wakelock ein.</string>
     <string name="restrict_msm_hsic_host_wakelock">Beschränke MSM-HSIC-HOST_Wakelock</string>
     <string name="restrict_msm_hsic_host_wakelock_activated">Beschränke MSM-HSIC-HOST_Wakelock aktiviert</string>
     <string name="restrict_msm_hsic_host_wakelock_deactivated">Beschränke MSM-HSIC-HOST_Wakelock deaktiviert</string>
