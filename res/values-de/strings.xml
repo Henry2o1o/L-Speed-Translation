@@ -301,7 +301,6 @@ Für weitere Informationen siehe logcat"</string>
     <string name="hidden_apps">Versteckte Apps</string>
     <string name="how_root">Wie kann ich mein Handy rooten?</string>
     <string name="how_root_explanation">Hier unten findest Du Webseiten, die Dir zeigen, wie Du Dein Handy rooten kannst.</string>
-    <string name="id">ID: %1$s</string>
     <string name="improve_battery">Akku-Optimierungen</string>
     <string name="improve_battery_explanation">Erweitert die Akkuausdauer mittels Systemoptimierungen.</string>
     <string name="improve_scrolling_activated">Verbesserter Bildlauf aktiviert</string>
@@ -328,6 +327,10 @@ Für weitere Informationen siehe logcat"</string>
     <string name="io_tweak">IO-Optimierungen</string>
     <string name="junk_cleaner_explanation">Entfernt die vom System erstellten und nicht benötigten, sowie veralteten Dateien (Protokolle, unbenutzte Zwischenspeicherdateien, usw…).</string>
     <string name="junk_files_cleaner">Reinige Junk-Dateien</string>
+    <string name="junk_files_cleaner">Junk-Dateien bereinigen</string>
+    <string name="junk_files_cleaning">Bereinigung von Junk-Dateien…</string>
+    <string name="junk_files_found">%1$s Junk-Dateien gefunden</string>
+    <string name="junk_files_not_found">Keine Junk-Dateien gefunden</string>
     <string name="junk_files_searching">Suche nach Junk-Dateien…</string>
     <string name="kernMod">Kernel-Modifikationen</string>
     <string name="kernel_information">Kernel-Informationen</string>
