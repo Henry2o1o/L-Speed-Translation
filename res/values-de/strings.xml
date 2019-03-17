@@ -113,11 +113,29 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="better_scrolling_explanation">Verbessert ruckartigen Bildlauf und sorgt zusätzlich für einen weicheren Bewegungsablauf.</string>
     <string name="boost_now">Jetzt Dateisystem optimieren</string>
     <string name="boost_now_explanation">Reinigt den temporären Speicherplatz von der Dateisystemstrukturtypen (Inodes, Dentries und Seitenzwischenspeicher), um Arbeitsspeicher freizugeben.</string>
+    <string name="boost_options">Boost-Optionen</string>
+    <string name="boost_scheduler">Boost-Planer</string>
+    <string name="boost_scheduler_activated">Bost-Planer alle %1$s erhöhen</string>
+    <string name="boost_scheduler_deactivated">Boost-Planer ist deaktiviert</string>
+    <string name="boost_scheduler_explanation">Planen Sie, wann Boost automatisch RAM-Caches bereinigen soll.</string>
+    <string name="boosting">Boosting…</string>
+    <string name="boot">Boot</string>
+    <string name="boot_service_info">Dienst, der verwendet wird, um die L Speed-Konfiguration beim Booten von Geräten anzuwenden.</string>
+    <string name="bootloader_reboot_confirm">Neustart zum Bootloader/Schnellstart?</string>
     <string name="brand">"Marke: %1$s 
 "</string>
+    <string name="bug_report">Fehlerbericht</string>
     <string name="cacheClean">Cache-Reiniger</string>
     <string name="cache_clear">Zwischenspeicher-Partition gereinigt</string>
     <string name="cancel">Abbruch</string>
+    <string name="changelog">Changelog</string>
+    <string name="changelog_list">"v2.0.5-beta5
+ - Aktualisierte Optimierungen des virtuellen Speichers
+ - fstrim aus Profilen entfernt
+ - Entferntes fstrim beim Booten anwenden
+ - Aktualisierte zRAM-Optimierung
+ - I/O-Boost umbenannt in I/O-Blöcke Optimierung mit Profilen
+ - Kleinere Korrekturen und App-Verbesserungen
     <string name="charge_charger">Verbunden mit Ladegerät</string>
     <string name="charge_status">"Lade-Status: %1$s 
 "</string>
