@@ -229,11 +229,24 @@ Dies kann auch wichtige Sensoren wie den Fingerabdrucksensor deaktivieren. Wenn 
     <string name="dns_optimization_explanation">Ändert die Netzwerk-DNS mit der derzeit am häufigsten verwendeten DNS. Änderungen werden auf alle Netzwerkänderungen angewendet.</string>
     <string name="done">Fertig</string>
     <string name="double_back_pressed">Zum Beenden erneut diese Taste antippen</string>
-    <string name="empty_app">"Leere Anwendung:\u0009 %1$sMB 
-"</string>
-    <string name="enjoy_l_speed">Viel Vergnügen mit L Speed.</string>
+    <string name="doze_optimization">Schlummeroptimierung</string>
+    <string name="doze_optimization_disabled">Schlummeroptimierung deaktiviert</string>
+    <string name="doze_optimization_enabled">Schlummeroptimierung aktiviert</string>
+    <string name="doze_optimization_explanation">Schaltet das standardmäßige Schlummerverhalten ein.</string>
+    <string name="doze_whitelist">Schlummer-Whitelist</string>
+    <string name="empty_app">"Leere App:\u0009 %1$sMB 
+    <string name="empty_app_explanation">Cache der Apps, die Sie zuvor geöffnet haben.</string>
+    <string name="empty_apps">Leere Apps</string>
+    <string name="enjoy_l_speed">Viel Vergnügen mit L Speed</string>
+    <string name="entropy">Entropie</string>
+    <string name="entropy_explanation">"Verbessert die Leistung auf Kosten der Akkulaufzeit.
+Je höher, desto schneller wird dein Akku leer."</string>
+    <string name="entropy_options">Entropie-Optionen</string>
+    <string name="entropy_status">Entropie-Status</string>
     <string name="example_tweak">Optimierungsbeispiel</string>
     <string name="example_tweak_explanation">Dies ist ein Beispieldialog. Sie können dies auch bei einem anderen Optimierungsbeispiel anwenden.</string>
+    <string name="exception_message">"Gerätefehler, kann nicht fortgesetzt werden.
+Für weitere Informationen siehe logcat"</string>
     <string name="extended_queue_activated">Erweiterte IO-Optimierungen aktiviert</string>
     <string name="extended_queue_deactivated">Erweiterte IO-Optimierungen deaktiviert</string>
     <string name="f4uzan_hint">Zurückgetretener Designer, das wars, Leute!</string>
