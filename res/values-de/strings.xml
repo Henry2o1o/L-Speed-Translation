@@ -522,32 +522,54 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="restrict_msm_hsic_host_wakelock_activated">Beschränke MSM-HSIC-HOST_Wakelock aktiviert</string>
     <string name="restrict_msm_hsic_host_wakelock_deactivated">Beschränke MSM-HSIC-HOST_Wakelock deaktiviert</string>
     <string name="restrict_msm_hsic_host_wakelock_explanation">Diese Option beschränkt den msm_hsic_host wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_netlink_ws">Netzlink Wakelock einschränken</string>
+    <string name="restrict_netlink_ws_activated">Netzlink Wakelock einschränken aktiviert</string>
+    <string name="restrict_netlink_ws_deactivated">Restrict netlink Wakelock deaktiviert</string>
+    <string name="restrict_netlink_ws_explanation">Diese Option verhindert, dass der Netlink-Wakelock aktiviert wird.</string>
+    <string name="restrict_qcom_rx_wakelock_ws">qcom_rx_wakelock_ws Wakelock einschränken</string>
+    <string name="restrict_qcom_rx_wakelock_ws_activated">qcom_rx_wakelock_ws Wakelock einschränken aktiviert</string>
+    <string name="restrict_qcom_rx_wakelock_ws_deactivated">qcom_rx_wakelock_ws Wakelock einschränken deaktiviert</string>
+    <string name="restrict_qcom_rx_wakelock_ws_explanation">Diese Option verhindert, dass qcom_rx_wakelock_ws wakelock_ws aktiviert wird.</string>
     <string name="restrict_sensor_ind_wakelock">Beschränke Sensor-IND-Wakelock</string>
     <string name="restrict_sensor_ind_wakelock_activated">Beschränke Sensor-IND-Wakelock aktiviert</string>
     <string name="restrict_sensor_ind_wakelock_deactivated">Beschränke Sensor-IND-Wakelock deaktiviert</string>
-    <string name="restrict_sensor_ind_wakelock_explanation">Diese Option beschränkt den sensor_ind wakelock davor sich selbst zu Aktivieren wenn Ambient Display deaktiviert ist</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">Diese Option beschränkt den Sensor-IND-Wakelock davor sich selbst zu Aktivieren wenn Ambient Display deaktiviert ist</string>
     <string name="restrict_smb135x_wakelock">Beschränke SMB135x-Wakelock</string>
     <string name="restrict_smb135x_wakelock_activated">Beschränke SMB135x-Wakelock aktiviert</string>
     <string name="restrict_smb135x_wakelock_deactivated">Beschränke SMB135x-Wakelock deaktiviert</string>
-    <string name="restrict_smb135x_wakelock_explanation">Diese Option beschränkt den smb135x wakelock davor sich selbst zu Aktivieren wenn das Gerät an einer Stromquelle angeschlossen ist</string>
-    <string name="restrict_wlan_ctrl_wakelock">Beschränke WLAN-CTRL-Wakelock</string>
-    <string name="restrict_wlan_ctrl_wakelock_activated">Beschränke WLAN-CTRL-Wakelock aktiviert</string>
-    <string name="restrict_wlan_ctrl_wakelock_deactivated">Beschränke WLAN-CTRL-Wakelock deaktiviert</string>
-    <string name="restrict_wlan_ctrl_wakelock_explanation">Diese Option beschränkt den wlan_ctrl wakelock davor sich selbst zu Aktivieren</string>
-    <string name="restrict_wlan_rx_wakelock">Beschränke WLAN-RX-Wakelock</string>
-    <string name="restrict_wlan_rx_wakelock_activated">Beschränke WLAN-RX-Wakelock aktiviert</string>
-    <string name="restrict_wlan_rx_wakelock_deactivated">Beschränke WLAN-RX-Wakelock deaktiviert</string>
-    <string name="restrict_wlan_rx_wakelock_explanation">Diese Option beschränkt den wlan_rx wakelock davor sich selbst zu Aktivieren</string>
-    <string name="restrict_wlan_wakelock">Beschränke WLAN-Wakelock</string>
-    <string name="restrict_wlan_wakelock_activated">Beschränktes WLAN-Wakelock aktiviert</string>
-    <string name="restrict_wlan_wakelock_deactivated">Beschränke WLAN-Wakelock deaktiviert</string>
-    <string name="restrict_wlan_wakelock_explanation">Diese Option beschränkt den wlan wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_smb135x_wakelock_explanation">Diese Option beschränkt den SMB135x-Wakelock davor sich selbst zu Aktivieren wenn das Gerät an einer Stromquelle angeschlossen ist</string>
+    <string name="restrict_timerfd_ws">Timerfd-Wakelock einschränken</string>
+    <string name="restrict_timerfd_ws_activated">Timerfd-Wakelock einschränken aktiviert</string>
+    <string name="restrict_timerfd_ws_deactivated">Timerfd-Wakelock einschränken deaktiviert</string>
+    <string name="restrict_timerfd_ws_explanation">Diese Option verhindert, dass die Timerfd-Wakelock aktiviert wird.</string>
+    <string name="restrict_wlan_ctrl_wakelock">WLAN-CTRL-Wakelock einschränken</string>
+    <string name="restrict_wlan_ctrl_wakelock_activated">WLAN-CTRL-Wakelock einschränken aktiviert</string>
+    <string name="restrict_wlan_ctrl_wakelock_deactivated">WLAN-CTRL-Wakelock einschränken deaktiviert</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">Diese Option schränkt den WLAN-CTRL-Wakelock davor ein, sich selbst zu aktivieren</string>
+    <string name="restrict_wlan_extscan_wl_ws">WLAN_EXTSCAN_WL_WS-Wakelock einschränken</string>
+    <string name="restrict_wlan_extscan_wl_ws_activated">WLAN_EXTSCAN_WL_WS-Wakelock einschränken aktivieren</string>
+    <string name="restrict_wlan_extscan_wl_ws_deactivated">WLAN_EXTSCAN_WL_WS-Wakelock einschränken deaktivieren</string>
+    <string name="restrict_wlan_extscan_wl_ws_explanation">Diese Option schränkt die Aktivierung des WLAN_EXTSCAN_WL_WS-Wakelock ein.</string>
+    <string name="restrict_wlan_rx_wakelock">WLAN-RX-Wakelock einschränken</string>
+    <string name="restrict_wlan_rx_wakelock_activated">WLAN-RX-Wakelock einschränken aktiviert</string>
+    <string name="restrict_wlan_rx_wakelock_deactivated">WLAN-RX-Wakelock einschränken deaktiviert</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">Diese Option schrenkt den WLAN-RX-Wakelock davor ein, sich selbst zu Aktivieren</string>
+    <string name="restrict_wlan_wakelock">WLAN-Wakelock einschränken</string>
+    <string name="restrict_wlan_wakelock_activated">WLAN-Wakelock einschränken aktiviert</string>
+    <string name="restrict_wlan_wakelock_deactivated">WLAN-Wakelock einschränken deaktiviert</string>
+    <string name="restrict_wlan_wakelock_explanation">Diese Option schränkt den WLAN-Wakelock davor ein, sich selbst zu Aktivieren</string>
+    <string name="restrict_wlan_ws">WLAN_WS-Wakelock einschränken</string>
+    <string name="restrict_wlan_ws_activated">WLAN_WS-Wakelock einschränken aktiviert</string>
+    <string name="restrict_wlan_ws_deactivated">WLAN_WS-Wakelock einschränken deaktiviert</string>
+    <string name="restrict_wlan_ws_explanation">Diese Option schränkt die Aktivierung des WLAN_WS-Wakelock ein.</string>
+    <string name="revert_parameters">Wie kann ich Änderungen an meinen Kernelparametern rückgängig machen?</string>
+    <string name="revert_parameters_explanation">Schalten Sie die Option, die Sie zurücksetzen möchten aus und führen Sie dann einen Neustart durch, Sie sollen ausgeglichen und startklar sein.</string>
     <string name="ril_tweak_activated">RIL-Optimierungen aktiviert</string>
     <string name="ril_tweak_deactivated">RIL-Optimierungen deaktiviert</string>
     <string name="ril_tweaks">RIL-Optimierungen</string>
     <string name="ril_tweaks_explanation">Verbessert die mobile Datentransfergeschwindigkeit.</string>
-    <string name="root_explanation">L Speed benötigt Root, weil es Systemdateien modifizieren muss, die auf einem ungerooteten Handy nicht geändert werden können.</string>
-    <string name="root_required">Root benötigt.</string>
+    <string name="root_explanation">L Speed benötigt Root, weil es Systemdateien modifiziert, die ohne Root nicht erreichbar sind</string>
+    <string name="root_required">Root benötigt</string>
     <string name="root_safe">Ist das Rooten meines Gerätes sicher?</string>
     <string name="root_safe_explanation">Das Rooten Deines Gerätes kann ein Riskiken enthalten. Allgemein ist es aber sicher, dies zu tun.</string>
     <string name="s1">Bild speichern</string>
@@ -557,9 +579,24 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="s5">Kalendertermin erstellen</string>
     <string name="s6">Der Werbeanzeige erlauben, einen Kalendertermin zu erstellen?</string>
     <string name="s7">Testanzeige</string>
+    <string name="save_dmesg_to_sdcard">Speichern von DMESG auf SD-Karte</string>
+    <string name="save_kmsg_to_sdcard">Speichern von KMSG auf SD-Karte</string>
     <string name="save_log">Protokolle abspeichern</string>
+    <string name="save_logcat_to_sdcard">Logcat auf SD-Karte speichern</string>
+    <string name="saving">Speichern…</string>
+    <string name="schedtune_boost">Schedtune-Boost</string>
+    <string name="schedtune_boost_aggressive">Aggressiven Schedtune-Boost aktiviert</string>
+    <string name="schedtune_boost_default">Schedtune-Boost ist auf Standard gesetzt</string>
     <string name="schedtune_boost_explanation">Erhöhen Sie die Gesamtsystem-Leistung, indem Sie die CPU aggressiver mit geringem Einfluss auf die Akku-Lebensdauer einstellen.</string>
+    <string name="schedtune_boost_light">Leichter SchedTune-Boost aktiviert</string>
+    <string name="schedtune_boost_moderate">Mäßiger SchedTune-Boost aktiviert</string>
+    <string name="scheduler_tuner">Scheduler-Tuner</string>
+    <string name="scheduler_tuner_activated">Scheduler-Tuner aktiviert</string>
+    <string name="scheduler_tuner_deactivated">Scheduler-Tuner deaktiviert</string>
     <string name="scheduler_tuner_explanation">Optimiert den aktuellen Scheduler mit einem intelligenten Skalierungssystem für optimale Leistung und Akkulaufzeit</string>
+    <string name="screen_brightness_set_to_auto">Bildschirmhelligkeit auf Autom. eingestellt</string>
+    <string name="screen_off">Bildschirm aus</string>
+    <string name="screen_timeout_set_to_more_than_15_seconds_decrease_it_to_15_seconds_to_save_power">Bildschirm-Timeout auf mehr als 15 Sekunden eingestellt, auf 15 Sekunden absenken, um Strom zu sparen.</string>
     <string name="script_execute">"Ausgeführtes Skript: 
 %1$s"</string>
     <string name="script_execute_indeterminate">Führe Skripte aus</string>
@@ -569,18 +606,29 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="sd_tweak_explanation">Erhöht den Lesezwischenspeicher, um die Lese- und Schreibgeschwindigkeit zu verbessern.</string>
     <string name="search_for_hint">Suche nach</string>
     <string name="search_menu_title">Suchen</string>
-    <string name="sec_10">10sek</string>
-    <string name="sec_20">20sek</string>
-    <string name="sec_30">30sek</string>
-    <string name="sec_5">5sek</string>
-    <string name="sec_60">60sek</string>
+    <string name="sec_10">10 Sek</string>
+    <string name="sec_15">15 Sek</string>
+    <string name="sec_20">20 Sek</string>
+    <string name="sec_30">30 sek</string>
+    <string name="sec_5">5 Sek</string>
+    <string name="sec_60">60 Sek</string>
     <string name="secondary_server">"Zweiter Server:\u0009 %1$sMB 
 "</string>
+    <string name="secondary_server_explanation">"Dies ist ein Prozess (ein Dienst, den eine App benötigt), der lebendig und bereit ist, falls er benötigt wird, um etwas zu tun."</string>
+    <string name="secondary_servers">Zweiter Server</string>
+
+    <string name="senthil360_hint">Hauptentwickler</string>
+
     <string name="settings">Einstellungen</string>
     <string name="setup_complete">Einrichtung vollständig. Diese kann später noch verändert werden.</string>
     <string name="setup_guide">Diese Einrichtung wird durch die Konfiguration von L Speed leiten</string>
+    <string name="show_animations">Animation anzeigen</string>
     <string name="show_fahrenheit">Anzeige in Fahrenheit (°F)</string>
     <string name="show_toast_and_snacks">Options-Benachrichtigungen ein/aus</string>
+    <string name="skip_check">Bist du sicher?</string>
+    <string name="skip_check_text">Du wirst wahrscheinlich einige wichtige Informationen vermissen.</string>
+    <string name="social_media">Soziale Netzwerke</string>
+    <string name="soft_reboot_confirm">Gerät Soft-Reboot?</string>
     <string name="state">"Zustand: %1$s 
 "</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -588,10 +636,30 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="status_discharging">Entlädt</string>
     <string name="status_full">Akku voll geladen</string>
     <string name="status_not_charging">Wird nicht geladen</string>
+    <string name="storage_permission_denied">Speicherzugriff verweigert</string>
+    <string name="swappiness_tendency">Swapiness-Tendenz</string>
+    <string name="swappiness_tendency_explanation">"Steuert die Rate der Swap-Nutzung.
+ Ein höherer Wert bedeutet, dass der Kernel den Swap aggressiver nutzen wird."</string>
+    <string name="swappiness_tendency_state">Swappiness-Tendenz wird auf %1$s gesetzt</string>
+    <string name="system_battery_saver_trigger_level">Auslösepegel des System-Akkusparers</string>
+    <string name="system_battery_saver_trigger_level_explanation">"Stellen Sie den Prozentsatz des Akku ein, der für die automatische Aktivierung des Akkusparers erforderlich ist.
+
+Der Prozentsatz kann zwischen 0-100 liegen."</string>
+    <string name="system_battery_saver_trigger_level_set">Auslöse-Level %1$s</string>
     <string name="technology">"Technologie: %1$s 
 "</string>
     <string name="temp">Temperatur:</string>
+    <string name="test_boot_service">Boot-Dienst testen</string>
+    <string name="theme">Thema</string>
+    <string name="theme_amoled">AMOLED</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_light">Hell</string>
     <string name="time_boot_delay_settings">Anwenden während der Startverzögerung</string>
+    <string name="total_ram">"Gesamt:\u0009 %1$sMB 
+"</string>
+    <string name="transition_animation_scale">Übergangs-Animationsskala</string>
+    <string name="transition_animation_scale_explanation">Skalierungsfaktor für Aktivitätsübergangsanimationen.</string>
+    <string name="transition_animation_scale_set">Übergangs-Animationsskala auf %1$s gesetzt</string>
     <string name="translation">Übersetzung</string>
     <string name="translation_text">Helfen Sie mir bei der Übersetzung dieser App</string>
     <string name="try_it_here">Es kann hier ausprobiert werden.</string>
@@ -599,6 +667,16 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="unknown">Unbekannt</string>
     <string name="usage_with_mods">Kann ich es mit anderen Mods benutzen?</string>
     <string name="usage_with_mods_explanation">Nein, es besteht die Gefahr, dass es zusammen mit anderen Mods zu Konflikten kommt.</string>
+    <string name="used_ram">"Verwendet:\u0009 %1$sMB 
+"</string>
+    <string name="vibrate_on_touch_turned_off">Vibrationen bei Berührung ausgeschaltet</string>
+    <string name="vibration_turned_on_turn_it_off_to_save_power">Vibration eingeschaltet. Schalten Sie diese aus, um Strom zu sparen</string>
+    <string name="virtual_memory_tweaks">Virtueller Speicher optimiert</string>
+    <string name="virtual_memory_tweaks_balanced">Ausgeglichene Optimierungen des virtuellen Speichers aktiviert</string>
+    <string name="virtual_memory_tweaks_battery">Optimierungen des virtuellen Speichers des Akkus aktiviert</string>
+    <string name="virtual_memory_tweaks_deactivated">Virtuelle Speicher-Optimierungen deaktiviert</string>
+    <string name="virtual_memory_tweaks_explanation">Optimiert den virtuellen Speicher mit Fokus auf Leistung, Akku oder ein Gleichgewicht zwischen beidem.</string>
+    <string name="virtual_memory_tweaks_performance">Leistungssteigerung des virtuellen Speichers aktiviert</string>
     <string name="visible_app">"Sichbare App:\u0009 %1$sMB 
 "</string>
     <string name="volt">Spannung: %1$s mV</string>
@@ -609,7 +687,7 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="what_is_lspeed">Was ist L Speed?</string>
     <string name="what_is_lspeed_explanation">L Speed ist eine App, die Systemmodifikationen und -optimierungen kombiniert.</string>
     <string name="why_root">Warum benötigt es Root?</string>
-    <string name="why_root_explanation">L Speed benötigt Root, weil es Systemdateien modifizieren muss, die mit einem ungerooteten Handy nicht geändert werden können.</string>
+    <string name="why_root_explanation">Die App benötigt root, da sie einige wichtige Dateien auf dem System ändert, dies ist ohne root nicht möglich.</string>
     <string name="wipe_cache">Lösche Zwischenspeicher-Partition</string>
     <string name="wipe_dalvik">Lösche Dalvik-Zwischenspeicher</string>
     <string name="xda_help">Rootanleitung für Dein Gerät</string>
