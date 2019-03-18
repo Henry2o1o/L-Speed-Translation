@@ -127,13 +127,66 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="cache_clear">Zwischenspeicher-Partition gereinigt</string>
     <string name="cancel">Abbruch</string>
     <string name="changelog">Changelog</string>
-    <string name="changelog_list">"v2.0.5-beta5
+    <string name="changelog_list">"
+ v2.0.5-beta5
  - Aktualisierte Optimierungen des virtuellen Speichers
  - fstrim aus Profilen entfernt
  - Entferntes fstrim beim Booten anwenden
  - Aktualisierte zRAM-Optimierung
  - I/O-Boost umbenannt in I/O-Blöcke Optimierung mit Profilen
  - Kleinere Korrekturen und App-Verbesserungen
+
+  v2.0.5-beta4
+ - Removed toggle for KSM, merged with Improve battery with state disabled
+ - Fixed issue with resetting to defaults on every update
+ - Optimized services
+ - Don't keep previous activity after pressing skip button on app intro
+ - Fixed reset to defaults button
+ - Updated navigation drawer
+ - Added service description (you can check from phone settings)
+ - Improved app stability and performance
+
+ v2.0.5-beta3
+ - Enabled full debug mode
+ - Improved PhoenixOS support
+ - Fixed issue when changing entropy profile
+
+ v2.0.5-beta2
+ - Added back entropy section
+ - Flag tuner moved to Ram manager section and renamed to Disable multitasking limitation
+ - Fixed issue with boot service keep running
+ - Updated profiles
+ - Updated cleaner service
+ - Minor bug fixes and performance improvements
+ - Reduced app size
+
+ v2.0.5-beta1
+ - Updated boot service
+ - Added bug report section
+ - Updated FS trim get log
+ - Updated boost now
+ - Added anxiety scheduler support
+
+ v2.0-beta3
+ - Fixed wifi supplicant scan interval resetting
+ - Updated heap optimization
+ - Updated DNS optimization
+ - Updated disable debugging
+ - Updated vm tweaks
+ - Reclaiming pages of inactive tasks disabled
+
+ v2.0-beta2
+ - Fixed reset to defaults button
+ - Fixed battery fragment crashing issues on pre-lollipop devices
+ - Fixed service overlapping
+ - Minor bug fixes
+
+ v2.0-beta1
+ - Updated app design
+ - Improved tweaks
+ - Improved app stability
+ - Improved app performances
+ - Fixed minor issues
 "</string>
     <string name="changelog_text">Anzeigen der letzten Änderungen an der L-Geschwindigkeit</string>
     <string name="character_counter_content_description">Zeichenlimit %1$d von %2$d überschritten</string>

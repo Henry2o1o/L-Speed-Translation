@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global dialogs -->
+    <string name="ads_in_app_text">L Speed ist eine gemeinnützige und kostenlose Anwendung und wir haben damit kein Geld gewonnen (abgesehen von der Spende natürlich!). Das ist in Ordnung für uns, aber die Entwicklung kostet viel Geld, wir brauchen Internet, Strom , und Verpflegung!\n\nAus diesem Grund haben wir Anzeigen in der App geschaltet, die nicht aufdringlich sind und nicht stören, versprochen! Wenn man auf sie klickt, wird es uns auch mehr helfen!!\n\nVielen Dank für das Verständnis.</string>
+
+    <!-- CleanerFragment.java dialogs -->
+    <string name="junk_cleaner_explanation">Entfernt die vom System erstellten und nicht benötigten, sowie veralteten Dateien (Protokolle, unbenutzte Zwischenspeicherdateien, usw…).</string>
+    <string name="app_cache_cleaner_explanation">Entfernt von Anwendungen erstellte und nicht benötigte Zwischenspeicherdateien (Zwischenspeicherabbilder, usw…).</string>
+    <string name="wipe_cache_explanation">Löscht den Zwischenspeicher, der auf der Zwischenspeicherpartition erstellt wurde.</string>
+    <string name="wipe_dalvik_explanation">Löscht den Dalvik-Zwischenspeicher aller Anwendungen. Ein Neustart ist anschließend notwendig, damit es zu keinen Abstürzen kommt.</string>
+    <string name="cleaner_on_boot_explanation">Aktiviert die Löschung überflüssiger Dateien bei jedem Neustart.</string>
+
+    <!-- FsTrimFragment,java dialogs -->
+    <string name="fstrim_now_explanation">TRIM-Befehl für die Gerätepartitionen, um Lese- und Schreibverzögerungen zu verringern und die Leistung zu erhöhen. Bitte nur anwenden, wenn die Funktion gebraucht wird.</string>
+    <string name="fstrim_on_boot_explanation">Aktiviert den automatischen TRIM-Befehl bei jedem Systemstart.</string>
+    <string name="fstrim_scheduler_explanation">Zeitplan, wann FSTrim automatisch laufen soll.</string>
+
+    <!-- CpuTunerFragment.java dialogs -->
+    <string name="governor_tuner_explanation">Verbessert deinen aktiven Governor mit einem intelligenten Skalierungssystem für optimaler Leistung und Akkulaufzeit</string>
+    <string name="governor_tuner_time_explanation">Legen Sie ein Intervall fest, wann der Governor-Optimierer die Parameter auf den aktuellen Governor überprüfen und anwenden soll.</string>
+    <string name="schedtune_boost_explanation">Erhöhen Sie die Gesamtsystem-Leistung, indem Sie die CPU aggressiver mit geringem Einfluss auf die Akku-Lebensdauer einstellen.</string>
+    <string name="mcps_explanation">Ordnet Rechenoperationen den wenigsten CPU-Kernen wie möglich zu, um Energie zu sparen.</string>
+    <string name="cpu_optimizer_explanation">Verbessert und optimiert die Prozessorleistung. Dieses kann zu erhöhter Energieaufnahme führen.</string>
+    <string name="mpdecision_explanation">Qualcomm´s Hotplug-Mechanismus, ordnet und schaltet dynamisch den CPU-Kern-Zustand. Wenn es aktiviert ist, können Probleme bei der Konfiguration der CPU-Frequenzen auftreten.</string>
+
+    <!-- BatteryFragment.java dialogs -->
+    <string name="system_battery_saver_explanation">Um die Akkulaufzeit zu verbessern, reduziert der Akkusparer die Leistung deines Geräts und begrenzt Vibrationen, Ortungsdienste und die meisten Hintergrunddaten. E-Mail-, Messaging- und andere Apps, die auf Synchronisierung angewiesen sind, werden möglicherweise nicht aktualisiert, es sei denn, du öffnest sie.\n\n- Wenn sie aktiviert sind, wird der Akkusparmodus jetzt aktiviert und beim Booten\n- wird der System-Akkusparmodus automatisch ausgeschaltet, wenn dein Gerät aufgeladen wird.
+    <string name="system_battery_saver_trigger_level_explanation">Stelle den Batterieprozentsatz ein, der für die automatische Aktivierung des Akkusparmodus erforderlich ist. Der Prozentsatz kann zwischen 0 und 100 liegen.</string>
+    <string name="smart_battery_saver_explanation" formatted="false">Profile-Status:\n\n
+        Deaktiviert - Dieser Status gibt deine vorherige Gerätekonfiguration nicht zurück.\n\n
+    Minimum:\n
+        - Bildschirm-Auszeit auf 30 Sek\n
+        - Bildschirmhelligkeit auf 50%\n\n
+        Mittel:\n
+        - Ton - Bitte nicht stören\n
+        - Bildschirm-Auszei 30 Sek\n
+        - Bildschirmhelligkeit auf 30%\n\n
+        Maximum:\n
+        - WLAN aus\n
+        - Bluetooth aus\n
+        - Auto-Sync aus\n
+        - Ton - Bitte nicht stören\n
+        - Bildschirm-Auszeit auf 15 Sek\n
+        - Bildschirmhelligkeit auf 10%\n\n
+        Der intelligente Akku-sparer wird beim Booten nicht gestartet.
+    </string>
+    <string name="improve_battery_explanation">Erweitert die Akkuausdauer mittels Systemoptimierungen.</string>
+    <string name="wipe_battery_stats_explanation">Entfernt die Akkustatistiken aus den Systemdaten.</string>
+    <string name="fast_charge_explanation">Aktivert schnelles Akkuladen, das die meisten Kernel unterstützen. Wird nicht benötigt, wenn das Telefon bereits über diese Funktion verfügt.</string>
+    <string name="wifi_scanning_explanation">Zwingt WLAN, im Hintergrund nach Access Points zu suchen, unabhängig vom Status.</string>
+    <string name="wifi_supplicant_scan_interval_explanation">Lege das Intervall fest, wie oft WLAN in der Nähe von Access Points scannen soll.</string>
+    <string name="wifi_idle_ms_explanation">Stelle das Intervall ein, das benötigt wird, um zu berücksichtigen, wenn WLAN im Leerlauf ist.</string>
+    <string name="doze_optimization_explanation">Schaltet das standardmäßige Schlummerverhalten ein.</string>
+    <string name="aggressive_doze_explanation">Wechselt sofort in den Ruhemodus, nachdem der Bildschirm ausgeschaltet wurde, um die Akku-Lebensdauer zu verbessern. Während aggressiven Ruhemodus werden Sie nur hochrangige Benachrichtigungen erhalten und das System kann die Synchronisierung von Daten und das Scannen nach WiFi-Netzwerken beenden. Der Ruhestand wird während des Ladevorgangs automatisch deaktiviert und wenn der Bildschirm eingeschaltet ist.</string>
+    <string name="light_doze_optimization_explanation">Optimiert den normalen Ruhestand für optimiertes und effizienteres Energiesparen.</string>
+    <string name="disable_motion_detection_explanation">Verhindert das Aufwachen von Geräten aus dem Ruhestand, wenn es eine Bewegung erkennt (z. B. wenn das Gerät aufgenommen wird oder in der Tasche ist). Wenn dies aktiviert ist, kann der Bildschirm für einen Moment flackern oder blinken, dies liegt an dem System, das die Sensoren für spätere Verwendung wieder aktiviert.\nDies kann auch wichtige Sensoren wie den Fingerabdrucksensor deaktivieren. Wenn Sie irgendwelche Probleme feststellen, deaktivieren Sie bitte diese Option.</string>
+
+    <!-- IoTweakFragment.java dialogs -->
+    <string name="scheduler_tuner_explanation">Optimiert den aktuellen Scheduler mit einem intelligenten Skalierungssystem für optimale Leistung und Akkulaufzeit</string>
+    <string name="crc_checks_explanation">CRC ist ein Mechanismus, der darauf abzielt, Datenverlust zu verhindern, wenn er aktiviert ist.\nBei Aktivierung können Datenblöcke bis zu 30% ihrer Leistung verlieren.</string>
+    <string name="io_boost_explanation">Optimiert Eingabe- und Ausgabegeschwindigkeit, um die Leistung zu erhöhen.</string>
+    <string name="io_extended_queue_explanation">Erweitert die Eingabe- und Ausgabeabarbeitung. Dadurch entsteht etwas erhöhte Energieaufnahme, aber auch schnellere Lese- und Schreibgeschwindigkeit.</string>
+    <string name="sd_tweak_explanation">Erhöht den Lesezwischenspeicher, um die Lese- und Schreibgeschwindigkeit zu verbessern.</string>
+    <string name="partition_remount_explanation">Bindet alle EXT4-Partitionen mit leistungsoptimierten Optionen wieder neu ein.</string>
+
+    <!-- LnetOptimizerFragment.java dialogs -->
+    <string name="net_buffers_explanation">Verbessert die Surfgeschwindigkeit im Internet\nKleiner NET-Zwischenspeicher erhöht vernünftig den Zwischenspeicher je nach Verbindungstyp (3G, WiFi, LTE, Edge, UMTS)\nGroßer NET-Zwischenspeicher erhöht den Zwischenspeicher merklich, so dass beim Surfen im Internet eine erhöhte Energieaufnahme festzustellen ist.</string>
+    <string name="ril_tweaks_explanation">Verbessert die mobile Datentransfergeschwindigkeit.</string>
+    <string name="net_tcp_tweaks_explanation">Erhöht die Datenübertragungsgeschwindigkeit, indem sie kernelbezogene Funktionen wie IPv4 TCP-Algorithmus modifiziert und optimiert.</string>
+    <string name="net_speed_explanation">Verbessere die Upload- und Download-Geschwindigkeit durch das Reduzieren von tx_queue_len im Kernel. Diese Option kann die Lebensdauer des Akkus geringfügig beeinflussen.</string>
+    <string name="dns_explanation">Ändert den Netzwerk-Server zu dem des Google DNS-Servers (8.8.8.8 – 8.8.4.4).</string>
+    <string name="faster_streaming_explanation">Optimiert den Open-Source-Mediaplayer des Android-Systems, um Inhalte aus dem Netz schneller übertragen zu können.</string>
+
+    <!-- MainTweakFragment.java dialogs -->
+    <string name="boost_now_explanation">Reinigt den temporären Speicherplatz von der Dateisystemstrukturtypen (Inodes, Dentries und Seitenzwischenspeicher), um Arbeitsspeicher freizugeben.</string>
+    <string name="kill_media_server_explanation">Gewaltsames Beenden des Media-Server-Prozesses. Dieser Befehl ermöglicht das Reduzieren von Abwärme und mindert Leistungseinbußen, die durch den Media-Server verursacht werden. </string>
+    <string name="seeder_explanation">Verbessert die Leistung auf Kosten der Akkulaufzeit.\nErhöhung der Seeder-Stufe steigert die Leistung, wird aber auch den Akku mehr belasten.</string>
+    <string name="kernel_tweaks_explanation">Optimiert den Kernel mit dem Fokus auf entweder Leistung, Batterie oder ein Gleichgewicht zwischen beiden.</string>
+    <string name="disable_debugging_explanation">Deaktiviert die Debugging Lese- und Schreibvorgänge.\nDeaktiviert die Protokollierung, z.B. der ANR-(Anwendung ragiert nicht)Aktivität, sowie unbenötigter Anwendungs- und Ausgabeprotokolle.</string>
+    <string name="disable_kernel_panic_explanation">Deaktiviert die Kernel-Panik, um lästige Neustarts zu verhindern, wenn der genutzte Kernel fehlerhaft oder instabil ist.</string>
+    <string name="kernel_sleepers_optimization_explanation">Steigert die Kernel-Ruhemodus-Optimierungen im Tiefschlaf für bessere Leistung.</string>
+    <string name="fsync_explanation">Fsync hält sicher geänderte Daten intakt bei einem Systemabsturz oder einer plötzlichen Abschaltung.</string>
+    <string name="KSM_explanation">Aktiviert KSM (Kernel Samepage Merging), ein Speicherressourcen schonender Deduplikations-Algorithmus, der nach Duplikaten im Speicher sucht. Sinnvoll bei Geräten mit wenig Arbeitsspeicher.</string>
+    <string name="flag_tuner_explanation">Deaktivert die Multitasking-Limitierungen der Gerätehersteller und verbessert zusätzlich die Akkuausdauer.\nKann zu Instabilitäten führen.</string>
+    <string name="better_scrolling_explanation">Verbessert ruckartigen Bildlauf und sorgt zusätzlich für einen weicheren Bewegungsablauf.</string>
+    <string name="faster_boot_explanation">Reduziert den Startvorgang des Telefons mittels Optimierung der abstimmbaren Parameter des Systems.</string>
+    <string name="liquid_UI_explanation">Verbessert die Leistung der Benutzeroberfläche zulasten der Akkuausdauer.</string>
+    <string name="assertive_display_explanation">Aktiviert Qualcomms anpassungsfähige Bildschirmtechnik, die adaptiv die Darstellungsqualität steigert und verbessert.</string>
+    <string name="restrict_wlan_wakelock_explanation">Diese Option beschränkt den wlan wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_wlan_ctrl_wakelock_explanation">Diese Option beschränkt den wlan_ctrl wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_wlan_rx_wakelock_explanation">Diese Option beschränkt den wlan_rx wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_msm_hsic_host_wakelock_explanation">Diese Option beschränkt den msm_hsic_host wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_bluesleep_wakelock_explanation">Diese Option beschränkt den bluesleep wakelock davor sich selbst zu Aktivieren</string>
+    <string name="restrict_smb135x_wakelock_explanation">Diese Option beschränkt den smb135x wakelock davor sich selbst zu Aktivieren wenn das Gerät an einer Stromquelle angeschlossen ist</string>
+    <string name="restrict_sensor_ind_wakelock_explanation">Diese Option beschränkt den sensor_ind wakelock davor sich selbst zu Aktivieren wenn Ambient Display deaktiviert ist</string>
+    <string name="restrict_bluedroid_timer_wakelock_explanation">Diese Option beschränkt bluedroid_timer Wakelock von der Aktivierung.</string>
+
+    <!-- VirtualMemoryFragment.java dialogs -->
+    <string name="oom_killer_explanation">Verbessert die Leistung, wenn der Arbeitsspeicher ausgelastet ist.\n\nStandard - Standard Gerätekonfiguration.\n\nAktiviert - Beendet Anwendungen bei großer Speicherauslastung. Dieses verhindert intensive Abarbeitungsprozesse.\n\nDeaktiviert - Die OOM-Einstellung durchsucht die gesamte Abarbeitungsliste und beendet Aufgaben, die nach einer Heuristik ausgewählt werden. Normalerweise wählt dieser Vorgang speicherintensive Vorgänge aus und gibt nach dem Beenden eine Menge an Speicherplatz frei.</string>
+    <string name="cache_reclaiming_explanation">Kontrolliert das Verhalten des Kernels, Speicher wiederzugewinnen, der für das Zwischenspeichern genutzt wird und als Verzeichnis für Inode-Objekte dient.\n\nStandard - Standard Gerätekonfiguration.\n\nMinimal - Weniger Wiedergewinnung. Dieses wird ein wenig die Akkuausdauer verbessern, kann aber auch zu Leistungseinbußen führen.\n\nGemäßigt - Stellt den Wert etwas weniger als den Standardwert ein. Dieses führt zu verbesserter Akkuausdauer ohne große Auswirkung auf die Leistung.\n\nDoppelt - Ermöglicht den größten Leistungsschub gepaart mit hoher Akkubelastung.</string>
+    <string name="cache_allocation_explanation" formatted="false">Steuert, wie viel RAM für eine Cache-Zuweisung verwendet werden kann\n\nMedium - Verwendt 75% Ihres physischen RAM für Cache-Zuweisungen\n\nGroß - Verwendt 100% physikalischen RAM für Cache-Zuweisungen\n\nDas Verändern der Cache-Zuweisung kann zufällige Einfrierungen und Leistungsabfälle verursachen.</string>
+    <string name="heap_optimization_explanation">Optimierung und Feinabstimmung des Heap-Size mit empfohlenen Werten, basierend auf RAM und Displaydichte.</string>
+    <string name="runtime_optimization_explanation">Feinabstimmung und Optimierung der Android Runtime für eine bessere Leistung und Effizienz; diese Option gilt für Dalvik und ART.</string>
+    <string name="zram_optimization_explanation">Optimierung und Feintuning des ZRAM basierend auf empfohlenen Werten und RAM-Größe.</string>
+
+    <!-- RamManagerFragment.java dialogs -->
+    <string name="ram_manager_explanation">Verbessert die Geschwindigkeit bei geringem Arbeitsspeicherstand.\nBerechnet die LMK-Einstellungen(LowMemoryKiller) basierend auf dem Arbeitsspeicher des jeweiligen Gerätes und gewählten Profil.\n\nStandard - Standard Gerätekonfiguration.\n\nMultitasking - Hält so viele Anwendungen wie möglich im Arbeitsspeicher.\n\nBalanciert - Stellt ein Gleichgewicht zwischen Multitasking- und Spieleprofil (Gaming) her.\n\nGaming - Hält so wenig Anwendungen wie möglich im Arbeitsspeicher, um die Leistung ohne Einbuße für Spiele bereitzustellen.</string>
+    <string name="low_ram_flag_explanation">Diese Option optimiert die Dalvik-Heap-Speicherzuweisungen, es schaltet auch mehrere Low-RAM-Flags im System ein, die spezielle Effekte wie umfangreiche Animationen und Statusbar-Tönung deaktivieren.\nEs kann auch den Energieverbrauch von einigen Apps reduzieren.</string>
+
+    <!-- MiscFragment.java dialogs -->
+
+    <!-- TipSecond dialogs -->
+    <string name="example_tweak_explanation">Dies ist ein Beispieldialog. Sie können dies auch bei einem anderen Optimierungsbeispiel anwenden.</string>
+    <string name="another_example_explanation">Nahezu jede L Speed-Optimierung besitzt eine Erläuterung, die durch längeres Antippen erscheint.</string>
+    <string name="more_example_explanation">Fahren sie nun fort. Diese Beispiele werden nur verwendet, um zu zeigen, wie die Einstellungen dieser Anwendung funktionieren.</string>
+
+    <!-- Settings.java dialogs -->
+    <string name="dark_theme_explanation">Schaltet zur dunklen Benutzeroberfläche um.</string>
+    <string name="color_blind_mode_explanation">Schaltet das Optik-Thema auf eine Graustufen-Optik, ideal für Menschen mit Farbblindheit.</string>
+    <string name="nav_bar_color_explanation">Einfärbung der Navigationsleiste. Es wird nichts eingefärbt, wenn keine Navigationsleiste vorhanden ist.</string>
+    <string name="force_english_explanation">Englische Sprache wählen anstatt der aktuellen Systemsprache.</string>
+    <string name="show_toast_explanation">Eine Benachrichtigung wird angezeigt (unten am Bildschirm positioniert), wenn eine Optimierung angewendet wird.</string>
+    <string name="show_fahrenheit_explanation">Anzeige der Akkutemperatur auf der Übersichtseite in Fahrenheit anstatt in Celsius.</string>
+    <string name="show_push_notifications_explanation">Erlaubt L Speed, Ihnen Benachrichtigungen zu senden; diese Benachrichtigungen enthalten Fehlerberichte und Ankündigung von uns.</string>
+    <string name="time_boot_delay_explanation">Der Wartezeitraum bis die Skripte beim Start ausgeführt werden.</string>
+    <string name="show_boot_notification_explanation">Zeigt eine Benachrichtigung an, wenn die Anwendung nach dem Start ausgeführt wird.</string>
+
+    <!-- TipThird.java dialogs -->
+    <string name="profiles_explanation">Wählen Sie vordefinierte L Speed-Geschwindigkeitsprofile, die bestimmen, in welcher Weise L Speed ausgeführt wird und die Systemeinstellungen ändert.</string>
+
+</resources>
