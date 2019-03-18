@@ -58,6 +58,7 @@
 
     <!-- IoTweakFragment.java dialogs -->
     <string name="scheduler_tuner_explanation">Optimiert den aktuellen Scheduler mit einem intelligenten Skalierungssystem für optimale Leistung und Akkulaufzeit</string>
+    <string name="io_stats_explanation">Verfolge  I/O-Statistiken für Speichergeräte. Das Deaktivieren unterbricht die I/O-Überwachungsapps, führt aber aufgrund der geringeren CPU-Last zu leichten Verbesserungen der I/O-Geschwindigkeit.</string>
     <string name="crc_checks_explanation">CRC ist ein Mechanismus, der darauf abzielt, Datenverlust zu verhindern, wenn er aktiviert ist.\nBei Aktivierung können Datenblöcke bis zu 30% ihrer Leistung verlieren.</string>
     <string name="io_boost_explanation">Optimiert Eingabe- und Ausgabegeschwindigkeit, um die Leistung zu erhöhen.</string>
     <string name="io_extended_queue_explanation">Erweitert die Eingabe- und Ausgabeabarbeitung. Dadurch entsteht etwas erhöhte Energieaufnahme, aber auch schnellere Lese- und Schreibgeschwindigkeit.</string>
@@ -86,6 +87,8 @@
     <string name="better_scrolling_explanation">Verbessert ruckartigen Bildlauf und sorgt zusätzlich für einen weicheren Bewegungsablauf.</string>
     <string name="faster_boot_explanation">Reduziert den Startvorgang des Telefons mittels Optimierung der abstimmbaren Parameter des Systems.</string>
     <string name="liquid_UI_explanation">Verbessert die Leistung der Benutzeroberfläche zulasten der Akkuausdauer.</string>
+    <string name="window_animation_scale_explanation">Skalierungsfaktor für normale Fensteranimationen.</string>
+    <string name="transition_animation_scale_explanation">Skalierungsfaktor für Aktivitätsübergangsanimationen.</string>
     <string name="assertive_display_explanation">Aktiviert Qualcomms anpassungsfähige Bildschirmtechnik, die adaptiv die Darstellungsqualität steigert und verbessert.</string>
     <string name="restrict_wlan_wakelock_explanation">Diese Option beschränkt den wlan wakelock davor sich selbst zu Aktivieren</string>
     <string name="restrict_wlan_ctrl_wakelock_explanation">Diese Option beschränkt den wlan_ctrl wakelock davor sich selbst zu Aktivieren</string>
@@ -95,19 +98,41 @@
     <string name="restrict_smb135x_wakelock_explanation">Diese Option beschränkt den smb135x wakelock davor sich selbst zu Aktivieren wenn das Gerät an einer Stromquelle angeschlossen ist</string>
     <string name="restrict_sensor_ind_wakelock_explanation">Diese Option beschränkt den sensor_ind wakelock davor sich selbst zu Aktivieren wenn Ambient Display deaktiviert ist</string>
     <string name="restrict_bluedroid_timer_wakelock_explanation">Diese Option beschränkt bluedroid_timer Wakelock von der Aktivierung.</string>
+    <string name="restrict_netlink_ws_explanation">Diese Option verhindert, dass der Netlink-Wakelock aktiviert wird.</string>
+    <string name="restrict_timerfd_ws_explanation">Diese Option verhindert, dass der Timerfd-Wakelock -Wakelock aktiviert wird.</string>
+    <string name="restrict_ipa_ws_explanation">Diese Option schränkt die Aktivierung des IPA_WS-Wakelock ein.</string>
+    <string name="restrict_qcom_rx_wakelock_ws_explanation">Diese Option verhindert, dass qcom_rx_wakelock_ws wakelock_ws aktiviert wird.</string>
+    <string name="restrict_wlan_extscan_wl_ws_explanation">Diese Option schränkt die Aktivierung des wlan_extscan_wl_ws wakelock ein.</string>
+    <string name="restrict_wlan_ws_explanation">Diese Option schränkt die Aktivierung des wlan_ws wakelock ein.</string>
 
     <!-- VirtualMemoryFragment.java dialogs -->
     <string name="oom_killer_explanation">Verbessert die Leistung, wenn der Arbeitsspeicher ausgelastet ist.\n\nStandard - Standard Gerätekonfiguration.\n\nAktiviert - Beendet Anwendungen bei großer Speicherauslastung. Dieses verhindert intensive Abarbeitungsprozesse.\n\nDeaktiviert - Die OOM-Einstellung durchsucht die gesamte Abarbeitungsliste und beendet Aufgaben, die nach einer Heuristik ausgewählt werden. Normalerweise wählt dieser Vorgang speicherintensive Vorgänge aus und gibt nach dem Beenden eine Menge an Speicherplatz frei.</string>
     <string name="cache_reclaiming_explanation">Kontrolliert das Verhalten des Kernels, Speicher wiederzugewinnen, der für das Zwischenspeichern genutzt wird und als Verzeichnis für Inode-Objekte dient.\n\nStandard - Standard Gerätekonfiguration.\n\nMinimal - Weniger Wiedergewinnung. Dieses wird ein wenig die Akkuausdauer verbessern, kann aber auch zu Leistungseinbußen führen.\n\nGemäßigt - Stellt den Wert etwas weniger als den Standardwert ein. Dieses führt zu verbesserter Akkuausdauer ohne große Auswirkung auf die Leistung.\n\nDoppelt - Ermöglicht den größten Leistungsschub gepaart mit hoher Akkubelastung.</string>
     <string name="cache_allocation_explanation" formatted="false">Steuert, wie viel RAM für eine Cache-Zuweisung verwendet werden kann\n\nMedium - Verwendt 75% Ihres physischen RAM für Cache-Zuweisungen\n\nGroß - Verwendt 100% physikalischen RAM für Cache-Zuweisungen\n\nDas Verändern der Cache-Zuweisung kann zufällige Einfrierungen und Leistungsabfälle verursachen.</string>
+    <string name="cache_allocation_explanation" formatted="false">Steuert, wie viel RAM für Cache-Zuweisungen verwendet werden kann. \nModifizieren der Cache-Zuweisung kann zu zufälligen Einfrierungen und Leistungseinbrüchen führen.</string>
+    <string name="swappiness_tendency_explanation">Kontrolliert die Rate der Swap-Nutzung.
+        Ein höherer Wert bedeutet, dass der Kernel den Swap aggressiver nutzen wird.</string>
     <string name="heap_optimization_explanation">Optimierung und Feinabstimmung des Heap-Size mit empfohlenen Werten, basierend auf RAM und Displaydichte.</string>
+    <string name="oom_killer_explanation">Verbessert die Leistung, wenn dem System der Speicherplatz ausgeht.\n\n
+        Aktiviert - Killt einfach die Aufgabe, die die Out-of-Memory-Bedingung ausgelöst hat.
+        Dadurch entfällt der teure Task-Listen-Scan.\n\n
+        Deaktiviert - Der OOM-Killer durchsucht die gesamte Aufgabenliste und wählt eine Aufgabe aus, die auf Heuristiken basiert.
+        Dies wählt normalerweise einen Rogue Memory-Hogging-Task aus, der beim Killen eine große Menge an Speicher freigibt.</string>
     <string name="runtime_optimization_explanation">Feinabstimmung und Optimierung der Android Runtime für eine bessere Leistung und Effizienz; diese Option gilt für Dalvik und ART.</string>
     <string name="zram_optimization_explanation">Optimierung und Feintuning des ZRAM basierend auf empfohlenen Werten und RAM-Größe.</string>
 
     <!-- RamManagerFragment.java dialogs -->
     <string name="ram_manager_explanation">Verbessert die Geschwindigkeit bei geringem Arbeitsspeicherstand.\nBerechnet die LMK-Einstellungen(LowMemoryKiller) basierend auf dem Arbeitsspeicher des jeweiligen Gerätes und gewählten Profil.\n\nStandard - Standard Gerätekonfiguration.\n\nMultitasking - Hält so viele Anwendungen wie möglich im Arbeitsspeicher.\n\nBalanciert - Stellt ein Gleichgewicht zwischen Multitasking- und Spieleprofil (Gaming) her.\n\nGaming - Hält so wenig Anwendungen wie möglich im Arbeitsspeicher, um die Leistung ohne Einbuße für Spiele bereitzustellen.</string>
+    <string name="foreground_app_explanation">Dies ist die App, die derzeit auf dem Bildschirm angezeigt wird.</string>
+    <string name="visible_app_explanation">Dies ist eine App, die offen ist und im Hintergrund läuft, weil sie immer noch etwas tut.</string>
+    <string name="secondary_server_explanation">Dies ist ein Prozess (ein Dienst, den eine App benötigt), der lebendig und bereit ist, falls er benötigt wird, um etwas zu tun.</string>
+    <string name="hidden_app_explanation">Dies ist wiederum ein Prozess, der untätig (aber immer noch lebendig) ist, falls er von einer App benötigt wird, die am Leben ist und läuft.</string>
+    <string name="content_provider_explanation">Dies sind Apps, die dem System Daten (Inhalte) zur Verfügung stellen.</string>
+    <string name="empty_app_explanation">Cache der Apps, die du zuvor geöffnet hast.</string>
+    <string name="adaptive_lmk_explanation">Diese Option macht LMK dynamisch aggressiver, wenn ein solches Thrashing-Szenario erkannt wird.</string>
+    <string name="lmk_fast_run_explanation">Ermöglicht die schnelle Rückgewinnung von RAM-Ressourcen bei Bedarf. Dies kann einen kleinen Einfluss auf den Akku haben, aber eine etwas bessere RAM-Verwaltung.</string>
     <string name="low_ram_flag_explanation">Diese Option optimiert die Dalvik-Heap-Speicherzuweisungen, es schaltet auch mehrere Low-RAM-Flags im System ein, die spezielle Effekte wie umfangreiche Animationen und Statusbar-Tönung deaktivieren.\nEs kann auch den Energieverbrauch von einigen Apps reduzieren.</string>
-
+    <string name="dont_keep_activities_explanation">Wenn aktiviert, beendet der Aktivitätsmanager Aktivitäten und Prozesse aggressiv, sobald sie nicht mehr benötigt werden.</string>
     <!-- MiscFragment.java dialogs -->
 
     <!-- TipSecond dialogs -->
