@@ -10,16 +10,16 @@
     <string name="abc_activitychooserview_choose_application">App auswählen</string>
     <string name="abc_capital_off">Aus</string>
     <string name="abc_capital_on">An</string>
-    <string name="abc_menu_alt_shortcut_label">Alt +</string>
-    <string name="abc_menu_ctrl_shortcut_label">Strg +</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Strg +</string>
     <string name="abc_menu_delete_shortcut_label">Löschen</string>
     <string name="abc_menu_enter_shortcut_label">Eingabetaste</string>
-    <string name="abc_menu_function_shortcut_label">Funktionstaste +</string>
-    <string name="abc_menu_meta_shortcut_label">Meta-Taste +</string>
-    <string name="abc_menu_shift_shortcut_label">Umschalttaste +</string>
-    <string name="abc_menu_space_shortcut_label">Leertaste +</string>
-    <string name="abc_menu_sym_shortcut_label">Sym-Taste +</string>
-    <string name="abc_prepend_shortcut_label">Menütaste +</string>
+    <string name="abc_menu_function_shortcut_label">Funktionstaste +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta-Taste +</string>
+    <string name="abc_menu_shift_shortcut_label">Umschalttaste +</string>
+    <string name="abc_menu_space_shortcut_label">Leertaste +</string>
+    <string name="abc_menu_sym_shortcut_label">Sym-Taste +</string>
+    <string name="abc_prepend_shortcut_label">Menütaste +</string>
     <string name="abc_search_hint">Suchen…</string>
     <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
     <string name="abc_searchview_description_query">Suchanfrage</string>
@@ -120,7 +120,7 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="boot">Boot</string>
     <string name="boot_service_info">Dienst, der verwendet wird, um die L Speed-Konfiguration beim Booten von Geräten anzuwenden.</string>
     <string name="bootloader_reboot_confirm">Neustart zum Bootloader/Schnellstart?</string>
-    <string name="brand">"Marke: %1$s 
+    <string name="brand">"Marke: %1$s
 "</string>
     <string name="bug_report">Fehlerbericht</string>
     <string name="cacheClean">Cache-Reiniger</string>
@@ -191,7 +191,7 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="changelog_text">Anzeigen der letzten Änderungen an der L-Geschwindigkeit</string>
     <string name="character_counter_content_description">Zeichenlimit %1$d von %2$d überschritten</string>
     <string name="charge_charger">Mit Ladegerät verbunden</string>
-    <string name="charge_status">"Lade-Status: %1$s 
+    <string name="charge_status">"Lade-Status: %1$s
 "</string>
     <string name="charge_unplugged">Nicht angeschlossen</string>
     <string name="charge_usb">Mit USB verbunden</string>
@@ -222,7 +222,7 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="common_signin_button_text">Anmelden</string>
     <string name="common_signin_button_text_long">Über Google anmelden</string>
     <string name="configure_l_speed">L Speed konfigurieren</string>
-    <string name="content_provider">"Inhaltsanbieter:\u0009 %1$sMB 
+    <string name="content_provider">"Inhaltsanbieter:\u0009 %1$sMB
 "</string>
     <string name="content_provider_explanation">This is apps that provide data (content) to the system.</string>
     <string name="content_providers">Content provider</string>
@@ -248,10 +248,10 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="debuffer_hint">Gründer, Hauptentwickler</string>
     <string name="default_state">Standard</string>
     <string name="delete_question">Diese Sicherung löschen?</string>
-    <string name="device">"Gerät: %1$s 
+    <string name="device">"Gerät: %1$s
 "</string>
     <string name="device_info">Geräteinformation</string>
-    <string name="device_model">"Gerätemodell: %1$s 
+    <string name="device_model">"Gerätemodell: %1$s
 "</string>
     <string name="disable_debug_activated">Debugging(aus) aktiviert</string>
     <string name="disable_debug_deactivated">Debugging(aus) deaktiviert</string>
@@ -282,7 +282,7 @@ Dies kann auch wichtige Sensoren wie den Fingerabdrucksensor deaktivieren. Wenn 
     <string name="doze_optimization_enabled">Schlummeroptimierung aktiviert</string>
     <string name="doze_optimization_explanation">Schaltet das standardmäßige Schlummerverhalten ein.</string>
     <string name="doze_whitelist">Schlummer-Whitelist</string>
-    <string name="empty_app">"Leere App:\u0009 %1$sMB 
+    <string name="empty_app">"Leere App:\u0009 %1$sMB
     <string name="empty_app_explanation">Cache der Apps, die Sie zuvor geöffnet haben.</string>
     <string name="empty_apps">Leere Apps</string>
     <string name="enjoy_l_speed">Viel Vergnügen mit L Speed</string>
@@ -300,7 +300,7 @@ Für weitere Informationen siehe logcat"</string>
     <string name="f4uzan_hint">Zurückgetretener Designer, das wars, Leute!</string>
     <string name="fatal_exception">Schwerwiegende Ausnahme, bitte L Speed-log überprüfen</string>
     <string name="force_english">Englische Spracheinstellungen</string>
-    <string name="foreground_app">"Vordergrund App:\u0009 %1$sMB 
+    <string name="foreground_app">"Vordergrund App:\u0009 %1$sMB
 "</string>
     <string name="foreground_app_explanation">Dies ist die App, die derzeit auf dem Bildschirm angezeigt wird.</string>
     <string name="foreground_apps">Apps im Vordergrund</string>
@@ -337,7 +337,7 @@ Für weitere Informationen siehe logcat"</string>
     <string name="gps_turned_on_turn_it_off_to_save_power">GPS ist eingeschaltet. Schalten Sie es aus, um Strom zu sparen.</string>
     <string name="grant">Gewähren!</string>
 
-    <string name="health">"Akku-Zustand: %1$s 
+    <string name="health">"Akku-Zustand: %1$s
 "</string>
     <string name="health_dead">Schlecht</string>
     <string name="health_failure">Fehlfunktion</string>
@@ -348,7 +348,7 @@ Für weitere Informationen siehe logcat"</string>
     <string name="heap_optimization_activated">Heap-Optimierungen aktiviert</string>
     <string name="heap_optimization_deactivated">Heap-Optimierungen deaktiviert</string>
     <string name="heap_optimization_explanation">Optimierung und Feinabstimmung des Heap-Size mit empfohlenen Werten, basierend auf RAM und Displaydichte.</string>
-    <string name="hidden_app">"Versteckte App:\u0009 %1$sMB 
+    <string name="hidden_app">"Versteckte App:\u0009 %1$sMB
 "</string>
     <string name="hidden_app_explanation">"Dies ist wiederum ein Prozess, der untätig (aber immer noch lebendig) ist, falls er von einer App benötigt wird, die am Leben ist und läuft."</string>
     <string name="hidden_apps">Versteckte Apps</string>
@@ -404,7 +404,7 @@ Für weitere Informationen siehe logcat"</string>
     <string name="l_speed_tips">L Speed Tipps</string>
     <string name="last_time_trimmed">Zuletzt den TRIM-Befehl ausgeführt</string>
     <string name="later">Später</string>
-    <string name="level">"Lade-Zustand: %1$s%% 
+    <string name="level">"Lade-Zustand: %1$s%%
 "</string>
     <string name="library_appintro_libraryDescription">App-Intro ist eine Bibliothek für ein cooles Intro in Ihren Android-Apps.</string>
     <string name="library_appintro_libraryName">App-Intro</string>
@@ -430,7 +430,7 @@ Für weitere Informationen siehe logcat"</string>
 Es kann auch den Energieverbrauch von einigen Apps reduzieren."</string>
     <string name="lspeed_basics">L Speed-Grundlagen</string>
     <string name="main_tweak">System-Optimierungen</string>
-    <string name="manufacturer">"Hersteller: %1$s 
+    <string name="manufacturer">"Hersteller: %1$s
 "</string>
     <string name="mcps">Mehrkern-Stromsparen</string>
     <string name="mcps_explanation">Ordnet Rechenoperationen den wenigsten CPU-Kernen wie möglich zu, um Energie zu sparen.</string>
@@ -451,7 +451,7 @@ Es kann auch den Energieverbrauch von einigen Apps reduzieren."</string>
     <string name="min_480">8 Std</string>
     <string name="min_60">60 Min</string>
     <string name="min_720">12 Std</string>
-    <string name="min_free_kbytes">"Min. freie KBytes:\u0009 %1$sKB 
+    <string name="min_free_kbytes">"Min. freie KBytes:\u0009 %1$sKB
 "</string>
     <string name="mobile_data_turned_on_turn_it_off_to_save_power">Mobile data turned on. Turn it off to save power</string>
     <string name="monochrome">Monochrome</string>
@@ -650,7 +650,7 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="screen_brightness_set_to_auto">Bildschirmhelligkeit auf Autom. eingestellt</string>
     <string name="screen_off">Bildschirm aus</string>
     <string name="screen_timeout_set_to_more_than_15_seconds_decrease_it_to_15_seconds_to_save_power">Bildschirm-Timeout auf mehr als 15 Sekunden eingestellt, auf 15 Sekunden absenken, um Strom zu sparen.</string>
-    <string name="script_execute">"Ausgeführtes Skript: 
+    <string name="script_execute">"Ausgeführtes Skript:
 %1$s"</string>
     <string name="script_execute_indeterminate">Führe Skripte aus</string>
     <string name="sd_tweak">SD-Optimierungen</string>
@@ -665,7 +665,7 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="sec_30">30 sek</string>
     <string name="sec_5">5 Sek</string>
     <string name="sec_60">60 Sek</string>
-    <string name="secondary_server">"Zweiter Server:\u0009 %1$sMB 
+    <string name="secondary_server">"Zweiter Server:\u0009 %1$sMB
 "</string>
     <string name="secondary_server_explanation">"Dies ist ein Prozess (ein Dienst, den eine App benötigt), der lebendig und bereit ist, falls er benötigt wird, um etwas zu tun."</string>
     <string name="secondary_servers">Zweiter Server</string>
@@ -682,7 +682,7 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="skip_check_text">Du wirst wahrscheinlich einige wichtige Informationen vermissen.</string>
     <string name="social_media">Soziale Netzwerke</string>
     <string name="soft_reboot_confirm">Gerät Soft-Reboot?</string>
-    <string name="state">"Zustand: %1$s 
+    <string name="state">"Zustand: %1$s
 "</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_charging">Lädt</string>
@@ -699,7 +699,7 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
 
 Der Prozentsatz kann zwischen 0-100 liegen."</string>
     <string name="system_battery_saver_trigger_level_set">Auslöse-Level %1$s</string>
-    <string name="technology">"Technologie: %1$s 
+    <string name="technology">"Technologie: %1$s
 "</string>
     <string name="temp">Temperatur:</string>
     <string name="test_boot_service">Boot-Dienst testen</string>
@@ -708,7 +708,7 @@ Der Prozentsatz kann zwischen 0-100 liegen."</string>
     <string name="theme_dark">Dunkel</string>
     <string name="theme_light">Hell</string>
     <string name="time_boot_delay_settings">Anwenden während der Startverzögerung</string>
-    <string name="total_ram">"Gesamt:\u0009 %1$sMB 
+    <string name="total_ram">"Gesamt:\u0009 %1$sMB
 "</string>
     <string name="transition_animation_scale">Übergangs-Animationsskala</string>
     <string name="transition_animation_scale_explanation">Skalierungsfaktor für Aktivitätsübergangsanimationen.</string>
@@ -720,7 +720,7 @@ Der Prozentsatz kann zwischen 0-100 liegen."</string>
     <string name="unknown">Unbekannt</string>
     <string name="usage_with_mods">Kann ich es mit anderen Mods benutzen?</string>
     <string name="usage_with_mods_explanation">Nein, es besteht die Gefahr, dass es zusammen mit anderen Mods zu Konflikten kommt.</string>
-    <string name="used_ram">"Verwendet:\u0009 %1$sMB 
+    <string name="used_ram">"Verwendet:\u0009 %1$sMB
 "</string>
     <string name="vibrate_on_touch_turned_off">Vibrationen bei Berührung ausgeschaltet</string>
     <string name="vibration_turned_on_turn_it_off_to_save_power">Vibration eingeschaltet. Schalte diese aus, um Strom zu sparen</string>
@@ -730,7 +730,7 @@ Der Prozentsatz kann zwischen 0-100 liegen."</string>
     <string name="virtual_memory_tweaks_deactivated">Virtuelle Speicher-Optimierungen deaktiviert</string>
     <string name="virtual_memory_tweaks_explanation">Optimiert den virtuellen Speicher mit Fokus auf Leistung, Akku oder ein Gleichgewicht zwischen beidem.</string>
     <string name="virtual_memory_tweaks_performance">Leistungssteigerung des virtuellen Speichers aktiviert</string>
-    <string name="visible_app">"Sichbare App:\u0009 %1$sMB 
+    <string name="visible_app">"Sichbare App:\u0009 %1$sMB
 "</string>
     <string name="visible_app_explanation">Dies ist eine App, die offen ist und im Hintergrund läuft, weil sie immer noch etwas tut.</string>
     <string name="visible_apps">Sichtbare Apps</string>
