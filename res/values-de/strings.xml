@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="KSM_explanation">Aktiviert KSM (Kernel Samepage Merging), ein Speicherressourcen schonender Deduplikations-Algorithmus, der nach Duplikaten im Speicher sucht. Sinnvoll bei Geräten mit wenig Arbeitsspeicher.</string>
     <string name="_10_networks">10 Netzwerke</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
@@ -44,27 +43,20 @@
     <string name="adaptive_lmk">Anpassbare LMK</string>
     <string name="adaptive_lmk_activated">Anpassbare LMK aktiviert</string>
     <string name="adaptive_lmk_deactivated">Anpassbare LMK deaktiviert</string>
-    <string name="adaptive_lmk_explanation">Diese Option macht LMK dynamisch aggressiver, wenn ein solches Thrashing-Szenario erkannt wird.</string>
     <string name="advanced_memory_status">Erweiterter Speicherstatus</string>
     <string name="advanced_options">Erweiterte Optionen</string>
     <string name="aggressive_doze">Aggressives Schlummern</string>
     <string name="aggressive_doze_activated">Aggressives Schlummern aktiviert</string>
     <string name="aggressive_doze_deactivated">Aggressives Schlummern deaktiviert</string>
-    <string name="aggressive_doze_explanation">Tritt unmittelbar nach dem Ausschalten des Bildschirms in den Ruhezustand ein, um die Akkulaufzeit zu verlängern. Während des aggressiven Schlummerns erhalten Sie nur Benachrichtigungen mit hoher Priorität, das System kann die Synchronisierung von Daten stoppen und das Scannen nach WiFi-Netzwerken einstellen. Nickerchen wird automatisch deaktiviert, wenn der Bildschirm eingeschaltet wird.</string>
     <string name="aggressive_doze_service_info">Service, der zur Gewährleistung der Gerätestabilität im aggressiven Schlummermodus verwendet wird.</string>
     <string name="alda">Aldanopolis</string>
     <string name="alda_hint">Engagierter Entwickler</string>
     <string name="allow_higher_youtube_resolution">Höhere YouTube-Auflösung zulassen</string>
-    <string name="allow_higher_youtube_resolution_explanation">Ermöglichen Sie Geräten ohne High-End-Display die Wiedergabe von hochauflösenden Videos auf YouTube. Einige Geräte können Videos nicht mit höherer Auflösung wiedergeben und verursachen Probleme. In diesem Fall reduzieren Sie bitte die Auflösung.</string>
     <string name="animator_duration_scale">Animator duration scale</string>
-    <string name="animator_duration_scale_explanation">"Scaling factor for Animator-based animations.
-This affects both the start delay and duration of all such animations."</string>
     <string name="animator_duration_scale_set">Animator duration scale set to %1$s</string>
     <string name="another_example">Ein weiteres Beispiel</string>
-    <string name="another_example_explanation">Nahezu jede L Speed-Optimierung besitzt eine Erläuterung, die durch längeres Antippen erscheint.</string>
     <string name="app_cache_cleaned">Appszwischenspeicher gereinigt</string>
     <string name="app_cache_cleaner">Reinige Appszwischenspeicher</string>
-    <string name="app_cache_cleaner_explanation">Entfernt von Apps erstellte und nicht benötigte Zwischenspeicherdateien (Zwischenspeicherabbilder, usw…).</string>
     <string name="app_cache_cleaning">App-Cache reinigen…</string>
     <string name="app_cache_found">%1$s im App-Cache gefunden</string>
     <string name="app_cache_not_found">Nichts im App-Cache gefunden</string>
@@ -108,14 +100,11 @@ This affects both the start delay and duration of all such animations."</string>
     <string name="beta_version_text">"Jeden Tag neue Funktionen!
 Jetzt als Beta-Tester anmelden!"</string>
     <string name="better_scrolling">Verbesserter Bildlauf</string>
-    <string name="better_scrolling_explanation">Verbessert ruckartigen Bildlauf und sorgt zusätzlich für einen weicheren Bewegungsablauf.</string>
     <string name="boost_now">Jetzt Dateisystem optimieren</string>
-    <string name="boost_now_explanation">Reinigt den temporären Speicherplatz von der Dateisystemstrukturtypen (Inodes, Dentries und Seitenzwischenspeicher), um Arbeitsspeicher freizugeben.</string>
     <string name="boost_options">Boost-Optionen</string>
     <string name="boost_scheduler">Boost-Planer</string>
     <string name="boost_scheduler_activated">Bost-Planer alle %1$s erhöhen</string>
     <string name="boost_scheduler_deactivated">Boost-Planer ist deaktiviert</string>
-    <string name="boost_scheduler_explanation">Planen Sie, wann Boost automatisch RAM-Caches bereinigen soll.</string>
     <string name="boosting">Boosting…</string>
     <string name="boot">Boot</string>
     <string name="boot_service_info">Dienst, der verwendet wird, um die L Speed-Konfiguration beim Booten von Geräten anzuwenden.</string>
@@ -197,7 +186,6 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="charge_usb">Mit USB verbunden</string>
     <string name="charge_wireless">Verbunden mit einem drahtlosen Ladegerät</string>
     <string name="check_working">Wie kann ich überprüfen, ob die Apps funktionieren oder nicht?</string>
-    <string name="check_working_explanation">Sie können mit dem Log-Viewer überprüfen, was im Hintergrund geschieht (zugänglich über Menü-Taste), alternativ einsehbar im Protokoll in /data/data/com.paget96.lspeed/files/log</string>
     <string name="cleaned_ram_of_old_caches">Bereinigter RAM von alten Caches</string>
     <string name="cleaner">System-Reiniger</string>
     <string name="cleaner_service_info">Service, der zur Durchführung der Systemreinigungsfunktion verwendet wird.</string>
@@ -224,7 +212,6 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="configure_l_speed">L Speed konfigurieren</string>
     <string name="content_provider">"Inhaltsanbieter:\u0009 %1$sMB
 "</string>
-    <string name="content_provider_explanation">This is apps that provide data (content) to the system.</string>
     <string name="content_providers">Content provider</string>
     <string name="cpu">CPU%1$s: %2$s</string>
     <string name="cpuMod">CPU-Optimierungen</string>
@@ -234,7 +221,6 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="cpu_opt_activated">CPU-Optimierer aktiviert</string>
     <string name="cpu_opt_deactivated">CPU-Optimierer deaktiviert</string>
     <string name="cpu_optimizer">CPU-Optimierungen</string>
-    <string name="cpu_optimizer_explanation">Verbessert und optimiert die Prozessorleistung. Dieses kann zu erhöhter Energieaufnahme führen.</string>
     <string name="cpu_tuner">CPU-Optimierungen</string>
     <string name="credits">L Speed Mitwirkende</string>
     <string name="current_entropy">Aktuelle Entropie</string>
@@ -243,7 +229,6 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="dalvik_cache_cleaning">Dalvik Cache bereinigen…</string>
     <string name="dalvik_clear">Dalvik-Zwischenspeicher bereinigt</string>
     <string name="dark_theme">Dunkles Thema</string>
-    <string name="dark_theme_explanation">Schaltet zur dunklen Benutzeroberfläche um.</string>
     <string name="dashboard">Übersichtsseite</string>
     <string name="debuffer_hint">Gründer, Hauptentwickler</string>
     <string name="default_state">Standard</string>
@@ -256,43 +241,31 @@ Jetzt als Beta-Tester anmelden!"</string>
     <string name="disable_debug_activated">Debugging(aus) aktiviert</string>
     <string name="disable_debug_deactivated">Debugging(aus) deaktiviert</string>
     <string name="disable_debugging">Debugging deaktivieren</string>
-    <string name="disable_debugging_explanation">"Deaktiviert die Debugging Lese- und Schreibvorgänge.
-Deaktiviert die Protokollierung, z.B. der ANR-(App ragiert nicht)Aktivität, sowie unbenötigter Apps- und Ausgabeprotokolle."</string>
     <string name="disable_motion_detection">Bewegungserkennung deaktivieren</string>
     <string name="disable_motion_detection_activated">Bewegungserkennung deaktivieren eingeschaltet</string>
     <string name="disable_motion_detection_deactivated">Bewegungserkennung deaktivieren ausgeschaltet</string>
-    <string name="disable_motion_detection_explanation">"Verhindert das Aufwachen von Geräten aus dem Ruhestand, wenn es eine Bewegung erkennt (z. B. wenn das Gerät aufgenommen wird oder in der Tasche ist). Wenn dies aktiviert ist, kann der Bildschirm für einen Moment flackern oder blinken, dies liegt an dem System, das die Sensoren für spätere Verwendung wieder aktiviert.
-Dies kann auch wichtige Sensoren wie den Fingerabdrucksensor deaktivieren. Wenn Sie irgendwelche Probleme feststellen, deaktivieren Sie bitte diese Option."</string>
     <string name="disable_multitasking_limitations">Multitasking-Einschränkungen deaktivieren</string>
     <string name="disable_multitasking_limitations_activated">Multitasking-Einschränkungen deaktivieren eingeschalten</string>
     <string name="disable_multitasking_limitations_deactivated">Multitasking-Einschränkungen deaktivieren ausgeschalten</string>
-    <string name="disable_multitasking_limitations_explanation">Deaktiviert ein leistungsbegrenzendes Flag im System, das auch die Akkulaufzeit verbessert. Dies kann zu Systeminstabilität führen.</string>
     <string name="disable_when_charging">Beim Laden deaktivieren</string>
     <string name="disable_when_charging_activated">Auschalten wenn Laden aktiviert</string>
     <string name="disable_when_charging_deactivated">Ausschalten wenn Laden deaktiviert</string>
-    <string name="disable_when_charging_explanation">Schlummern wird nicht aggressiv aktiviert, wenn das Gerät aufgeladen wird, anstatt dass dieses Gerät standardmäßig das Systemverhalten ändert.</string>
     <string name="dns_optimization">DNS-Optimierung</string>
     <string name="dns_optimization_activated">DNS-Optimierung aktiviert</string>
     <string name="dns_optimization_deactivated">rDNS-Optimierung deaktiviert</string>
-    <string name="dns_optimization_explanation">Ändert die Netzwerk-DNS mit der derzeit am häufigsten verwendeten DNS. Änderungen werden auf alle Netzwerkänderungen angewendet.</string>
     <string name="done">Fertig</string>
     <string name="double_back_pressed">Zum Beenden erneut diese Taste antippen</string>
     <string name="doze_optimization">Schlummeroptimierung</string>
     <string name="doze_optimization_disabled">Schlummeroptimierung deaktiviert</string>
     <string name="doze_optimization_enabled">Schlummeroptimierung aktiviert</string>
-    <string name="doze_optimization_explanation">Schaltet das standardmäßige Schlummerverhalten ein.</string>
     <string name="doze_whitelist">Schlummer-Whitelist</string>
     <string name="empty_app">"Leere App:\u0009 %1$sMB
-    <string name="empty_app_explanation">Cache der Apps, die Sie zuvor geöffnet haben.</string>
     <string name="empty_apps">Leere Apps</string>
     <string name="enjoy_l_speed">Viel Vergnügen mit L Speed</string>
     <string name="entropy">Entropie</string>
-    <string name="entropy_explanation">"Verbessert die Leistung auf Kosten der Akkulaufzeit.
-Je höher, desto schneller wird dein Akku leer."</string>
     <string name="entropy_options">Entropie-Optionen</string>
     <string name="entropy_status">Entropie-Status</string>
     <string name="example_tweak">Optimierungsbeispiel</string>
-    <string name="example_tweak_explanation">Dies ist ein Beispieldialog. Sie können dies auch bei einem anderen Optimierungsbeispiel anwenden.</string>
     <string name="exception_message">"Gerätefehler, kann nicht fortgesetzt werden.
 Für weitere Informationen siehe logcat"</string>
     <string name="extended_queue_activated">Erweiterte IO-Optimierungen aktiviert</string>
@@ -302,7 +275,6 @@ Für weitere Informationen siehe logcat"</string>
     <string name="force_english">Englische Spracheinstellungen</string>
     <string name="foreground_app">"Vordergrund App:\u0009 %1$sMB
 "</string>
-    <string name="foreground_app_explanation">Dies ist die App, die derzeit auf dem Bildschirm angezeigt wird.</string>
     <string name="foreground_apps">Apps im Vordergrund</string>
     <string name="free_ram">Frei:\u0009 %1$sMB</string>
     <string name="fstrim">TRIM-Befehl</string>
@@ -310,17 +282,13 @@ Für weitere Informationen siehe logcat"</string>
     <string name="fstrim_deactivated">TRIM-Befehl beim Systemstart deaktiviert</string>
     <string name="fstrim_load_dialog">TRIM-Befehl wird ausgeführt…</string>
     <string name="fstrim_now">Jetzt den TRIM-Befehl ausführen</string>
-    <string name="fstrim_now_explanation">TRIM-Befehl für die Gerätepartitionen, um Lese- und Schreibverzögerungen zu verringern und die Leistung zu erhöhen. Bitte nur anwenden, wenn die Funktion gebraucht wird.</string>
     <string name="fstrim_on_boot">TRIM-Befehl beim Systemstart ausführen</string>
-    <string name="fstrim_on_boot_explanation">Aktiviert den automatischen TRIM-Befehl bei jedem Systemstart.</string>
     <string name="fstrim_options">TRIM-Befehl-Optionen</string>
     <string name="fstrim_scheduler">Fstrim-Planer</string>
     <string name="fstrim_scheduler_activated">Fstrim Zeitplan alle %1$s</string>
     <string name="fstrim_scheduler_deactivated">Fstrim-Planer ist deativiert</string>
-    <string name="fstrim_scheduler_explanation">Zeitplan, wann FSTrim automatisch laufen soll.</string>
     <string name="fsync_activated">Fsync aktiviert</string>
     <string name="fsync_deactivated">Fsync deaktiviert</string>
-    <string name="fsync_explanation">Fsync hält sicher geänderte Daten intakt bei einem Systemabsturz oder einer plötzlichen Abschaltung.</string>
     <string name="general">Generell</string>
     <string name="google_help">Wie man Root bekommt (Name des Geräts)</string>
     <string name="gov_tuner_time_change">Governor tuner schedule every %1$s</string>
@@ -329,10 +297,8 @@ Für weitere Informationen siehe logcat"</string>
     <string name="governor_tuner_balanced">Ausgeglichenes Governor-Profil aktiviert</string>
     <string name="governor_tuner_battery">Akku-Governor-Profil aktiviert</string>
     <string name="governor_tuner_default">Governor-Optimierungen deaktiviert</string>
-    <string name="governor_tuner_explanation">Verbessert deinen aktiven Governor mit einem intelligenten Skalierungssystem für optimaler Leistung und Akkulaufzeit</string>
     <string name="governor_tuner_performance">Leistungs-Governor-Profil aktiviert</string>
     <string name="governor_tuner_time">Ausführungsintervall</string>
-    <string name="governor_tuner_time_explanation">Legen Sie ein Intervall fest, wann der Governor-Optimierer die Parameter auf den aktuellen Governor überprüfen und anwenden soll.</string>
     <string name="govtuner_developers">GovTuner Entwickler</string>
     <string name="gps_turned_on_turn_it_off_to_save_power">GPS ist eingeschaltet. Schalten Sie es aus, um Strom zu sparen.</string>
     <string name="grant">Gewähren!</string>
@@ -347,19 +313,14 @@ Für weitere Informationen siehe logcat"</string>
     <string name="heap_optimization">Heap-Optimierungen</string>
     <string name="heap_optimization_activated">Heap-Optimierungen aktiviert</string>
     <string name="heap_optimization_deactivated">Heap-Optimierungen deaktiviert</string>
-    <string name="heap_optimization_explanation">Optimierung und Feinabstimmung des Heap-Size mit empfohlenen Werten, basierend auf RAM und Displaydichte.</string>
     <string name="hidden_app">"Versteckte App:\u0009 %1$sMB
 "</string>
-    <string name="hidden_app_explanation">"Dies ist wiederum ein Prozess, der untätig (aber immer noch lebendig) ist, falls er von einer App benötigt wird, die am Leben ist und läuft."</string>
     <string name="hidden_apps">Versteckte Apps</string>
     <string name="how_root">Wie kann ich mein Handy rooten?</string>
-    <string name="how_root_explanation">Hier unten findest Du Webseiten, die Dir zeigen, wie Du Dein Handy rooten kannst.</string>
     <string name="improve_battery">Akku-Optimierungen</string>
-    <string name="improve_battery_explanation">Erweitert die Akkuausdauer mittels Systemoptimierungen.</string>
     <string name="improve_scrolling_activated">Verbesserter Bildlauf aktiviert</string>
     <string name="improve_scrolling_deactivated">Verbesserter Bildlauf deaktiviert</string>
     <string name="init.d_why">Init.d Ordner ist leer, warum?</string>
-    <string name="init.d_why_explanation">Die App benutzt init.d seit längerem nicht mehr, sondern Androids Autostart-Funktion.</string>
     <string name="initializing">Initialisierung</string>
     <string name="instant">Sofort</string>
     <string name="invite_friends">Lade deine Freunde ein, L Speed zu benutzen</string>
@@ -368,17 +329,13 @@ Für weitere Informationen siehe logcat"</string>
     <string name="io_blocks_optimization">I/O Blockoptimierung</string>
     <string name="io_blocks_optimization_balanced">I/O Blockoptimierung auf Ausgeglichen eingestellt</string>
     <string name="io_blocks_optimization_disabled">I/O Blockoptimierung deaktiviert</string>
-    <string name="io_blocks_optimization_explanation">Verstärkt Input/Output-Operationen, um ihre Leistung zu verbessern.</string>
     <string name="io_blocks_optimization_performance">I/O Blockoptimierung auf Leistung eingestellt</string>
     <string name="io_blocks_optimization_power_saving">I/O Blockoptimierung auf Stromsparen eingestellt</string>
     <string name="io_extended_queue">Erweiterte IO-Optimierungen</string>
-    <string name="io_extended_queue_explanation">Erweitert die Eingabe- und Ausgabeabarbeitung. Dadurch entsteht etwas erhöhte Energieaufnahme, aber auch schnellere Lese- und Schreibgeschwindigkeit.</string>
     <string name="io_stats">I/O-Statistiken</string>
     <string name="io_stats_activated">I/O-Statistiken aktiviert</string>
     <string name="io_stats_deactivated">I/O-Statistiken deaktiviert</string>
-    <string name="io_stats_explanation">Verfolgen Sie I/O-Statistiken für Speichergeräte. Das Deaktivieren unterbricht die I/O-Überwachungs-Apps, führt aber aufgrund der geringeren CPU-Last zu leichten Verbesserungen der I/O-Geschwindigkeit.</string>
     <string name="io_tweak">IO-Optimierungen</string>
-    <string name="junk_cleaner_explanation">Entfernt die vom System erstellten und nicht benötigten, sowie veralteten Dateien (Protokolle, unbenutzte Zwischenspeicherdateien, usw…).</string>
     <string name="junk_files_cleaner">Reinige Junk-Dateien</string>
     <string name="junk_files_cleaner">Junk-Dateien bereinigen</string>
     <string name="junk_files_cleaning">Bereinigung von Junk-Dateien…</string>
@@ -390,14 +347,11 @@ Für weitere Informationen siehe logcat"</string>
     <string name="kernel_panic">Kernel-Panik</string>
     <string name="kernel_panic_disabled">Kernel-Panik deaktiviert</string>
     <string name="kernel_panic_enabled">Kernel-Panik aktiviert</string>
-    <string name="kernel_panic_explanation">Ermöglicht die Verwendung des Kernel-Fail-Safe-Mechanismus, wenn der Kernel instabil oder fehlerhaft ist</string>
     <string name="kill_media_server">Media-Server deaktivieren</string>
-    <string name="kill_media_server_explanation">Gewaltsames Beenden des Media-Server-Prozesses. Dieser Befehl ermöglicht das Reduzieren von Abwärme und mindert Leistungseinbußen, die durch den Media-Server verursacht werden.</string>
     <string name="killing_media_server">Medienserver killen…</string>
     <string name="ksm_activated">Kernel Samepage Merging aktiviert</string>
     <string name="ksm_deactivated">Kernel Samepage Merging deaktiviert</string>
     <string name="lSpeed_difference">Was unterscheidet L Speed von anderen Mods?</string>
-    <string name="lSpeed_difference_explanation">L Speed hat eine Menge von Optionen, die einzigartig in ihrer App sind.</string>
     <string name="l_speed_dont_work_properly">"L Speed startet nicht nach dem Start?"</string>
     <string name="l_speed_is_running">L Speed läuft</string>
     <string name="l_speed_support">L Speed support</string>
@@ -409,13 +363,11 @@ Für weitere Informationen siehe logcat"</string>
     <string name="library_appintro_libraryDescription">App-Intro ist eine Bibliothek für ein cooles Intro in Ihren Android-Apps.</string>
     <string name="library_appintro_libraryName">App-Intro</string>
     <string name="liquid_UI">Optimierte Benutzeroberfläche</string>
-    <string name="liquid_UI_explanation">Verbessert die Leistung der Benutzeroberfläche zulasten der Akkuausdauer.</string>
     <string name="liquid_ui_activated">Optimierte Benutzeroberfläche aktiviert</string>
     <string name="liquid_ui_deactivated">Optimierte Benutzeroberfläche deaktiviert</string>
     <string name="lmk_fast_run">LMK Schnelllauf</string>
     <string name="lmk_fast_run_activated">LMK Schnelldurchlauf aktiviert</string>
     <string name="lmk_fast_run_deactivated">LMK Schnelldurchlauf deaktiviert</string>
-    <string name="lmk_fast_run_explanation">Ermöglicht die schnelle Rückgewinnung von RAM-Ressourcen bei Bedarf. Dies kann einen kleinen Einfluss auf den Akku haben, aber eine etwas bessere RAM-Verwaltung.</string>
     <string name="lnet">LNET-Optimierungen</string>
     <string name="logs_no_save">Keine Protokolle gefunden. Es wurde nichts gespeichert.</string>
     <string name="logs_noexists">Protokolle existieren nicht. Es werden keine Skripte ausgeführt</string>
@@ -426,17 +378,13 @@ Für weitere Informationen siehe logcat"</string>
     <string name="low_ram_flag">Wenig RAM-Flag</string>
     <string name="low_ram_flag_activated">Wenig RAM Flag aktiviert</string>
     <string name="low_ram_flag_deactivated">Wenig RAM Flag deaktiviert</string>
-    <string name="low_ram_flag_explanation">"Diese Option optimiert die Dalvik-Heap-Speicherzuweisungen, es schaltet auch mehrere Low-RAM-Flags im System ein, die spezielle Effekte wie umfangreiche Animationen und Statusbar-Tönung deaktivieren.
-Es kann auch den Energieverbrauch von einigen Apps reduzieren."</string>
     <string name="lspeed_basics">L Speed-Grundlagen</string>
     <string name="main_tweak">System-Optimierungen</string>
     <string name="manufacturer">"Hersteller: %1$s
 "</string>
     <string name="mcps">Mehrkern-Stromsparen</string>
-    <string name="mcps_explanation">Ordnet Rechenoperationen den wenigsten CPU-Kernen wie möglich zu, um Energie zu sparen.</string>
     <string name="mcps_disabled">Multicore-Energiesparmodus ist deaktiviert</string>
     <string name="mcps_enabled">Multicore-Energiesparmodus ist aktiviert</string>
-    <string name="mcps_explanation">"Groups CPU tasks so that they're done using the smallest number of cores possible, possibly saving battery life."</string>
     <string name="media_server_killed">Media-Server erfolgreich beendet</string>
     <string name="memManage">Speicherverwaltungs-Optimierungen</string>
     <string name="memory_cleaned">"%1$sMB Speicher freigegeben.
@@ -457,12 +405,9 @@ Es kann auch den Energieverbrauch von einigen Apps reduzieren."</string>
     <string name="monochrome">Monochrome</string>
     <string name="monochrome_activated">Monochrome aktiviert</string>
     <string name="monochrome_deactivated">Monochrome deaktiviert</string>
-    <string name="monochrome_explanation">Systemweite Monochromie (schwarz/weiß) des Displays aktivieren</string>
     <string name="more_example">Mehrere Beispiele</string>
-    <string name="more_example_explanation">Fahren sie nun fort. Diese Beispiele werden nur verwendet, um zu zeigen, wie die Einstellungen dieser App funktionieren.</string>
     <string name="mpdecision_activated">MPDecision ist aktiviert</string>
     <string name="mpdecision_deactivated">MPDecision ist deaktiviert</string>
-    <string name="mpdecision_explanation">Qualcomm´s Hotplug-Mechanismus, ordnet und schaltet dynamisch den CPU-Kern-Zustand. Wenn es aktiviert ist, können Probleme bei der Konfiguration der CPU-Frequenzen auftreten.</string>
     <string name="mtrl_chip_close_icon_content_description">Entferne %1$s</string>
     <string name="name_backup">Bitte Name für die Sicherung eingeben</string>
     <string name="netMod">LNET-Tricks</string>
@@ -473,15 +418,10 @@ Es kann auch den Energieverbrauch von einigen Apps reduzieren."</string>
     <string name="net_buffer_entries_small">Klein</string>
     <string name="net_buffer_small">Kleiner NET-Zwischenspeicher aktiviert</string>
     <string name="net_buffers">NET-Zwischenspeicher</string>
-    <string name="net_buffers_explanation">"Verbessert die Surfgeschwindigkeit im Internet
-Kleiner NET-Zwischenspeicher erhöht vernünftig den Zwischenspeicher je nach Verbindungstyp (3G, WiFi, LTE, Edge, UMTS)
-Großer NET-Zwischenspeicher erhöht den Zwischenspeicher merklich, so dass beim Surfen im Internet eine erhöhte Energieaufnahme festzustellen ist."</string>
-    <string name="net_speed_explanation">Verbessere die Upload- und Download-Geschwindigkeit durch das Reduzieren von tx_queue_len im Kernel. Diese Option kann die Lebensdauer des Akkus geringfügig beeinflussen.</string>
     <string name="net_speed_plus_activated">NET Speed+ aktiviert</string>
     <string name="net_speed_plus_deactivated">NET Speed+ deaktiviert</string>
     <string name="net_tcp_tweaks_activated">NET TCP tweaks aktiviert</string>
     <string name="net_tcp_tweaks_deactivated">NET TCP tweaks deaktiviert</string>
-    <string name="net_tcp_tweaks_explanation">Erhöht die Datenübertragungsgeschwindigkeit, indem sie kernelbezogene Funktionen wie IPv4 TCP-Algorithmus modifiziert und optimiert.</string>
     <string name="no">Nein</string>
     <string name="no_busybox">"Ich kann die Busybox nicht finden!
 Bitte installieren Sie diese!"</string>
@@ -497,53 +437,27 @@ Bitte installieren Sie diese!"</string>
     <string name="oom_killer">OOM-Einstellung</string>
     <string name="oom_killer_disabled">OOM Einstellungen deaktiviert</string>
     <string name="oom_killer_enabled">OOM Einstellungen aktiviert</string>
-    <string name="oom_killer_explanation">"Verbessert die Leistung, wenn dem System der Speicherplatz ausgeht.
-
- Aktiviert - Killt einfach die Aufgabe, die die Out-of-Memory-Bedingung ausgelöst hat. Dadurch entfällt der teure Task-Listen-Scan.
-
- Deaktiviert - Der OOM-Killer durchsucht die gesamte Aufgabenliste und wählt eine Aufgabe aus, die auf Heuristiken basiert. Dies wählt normalerweise einen Rogue Memory-Hogging-Task aus, der beim Killen eine große Menge an Speicher freigibt."</string>
     <string name="optimal_power_settings">Optimal power settings</string>
     <string name="optimize">Optimize</string>
     <string name="optimize_battery">Optimize Battery</string>
     <string name="otherDiv">Weiteres</string>
     <string name="paget_hint">Entwickler, Gründer, Betreiber</string>
     <string name="partition_remount">Partition neu einbinden</string>
-    <string name="partition_remount_explanation">Bindet alle EXT4-Partitionen mit leistungsoptimierten Optionen wieder neu ein.</string>
     <string name="partition_remounting_activated">Partition neu einbinden aktiviert</string>
     <string name="partition_remounting_deactivated">Partition neu einbinden deaktiviert</string>
     <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="peter_hint">Teilzeit engagierter Entwickler</string>
     <string name="please_wait">Bitte warten…</string>
     <string name="pop_req_root">L Speed benötigt Root-Zugriff</string>
-    <string name="prevent_conflict_explanation">"Sie müssen möglicherweise L Speed der Whitelist (Erlaubenliste) der Speicherbereinigung, des Autostarts, des Ruhezustands oder ähnlich funktionierenden Apps oder Funktionen auf Ihrem Gerät hinzufügen.
-Hier sind einige dieser Funktion auf Ihrem Gerät, wo Sie L Speed auf die Whitelist setzen können:
-
-Samsung: Einstellungen -> Sicherheit -> Auto-Start
-Sony: Einstellungen -> Energieeinstellungen -> STAMINA Mode
-MIUI : Einstellungen (Sicherheits-Center) -> Berechtigungen -> Auto-Start
-Huawei: Einstellungen -> Alle (Berechtigungen) -> Startup-Manager
-
-Diese können je nach Version der installierten Firmware / Rom verfügbar sein oder auch nicht."</string>
     <string name="profile_balanced">Ausgeglichenes Profil aktiviert</string>
     <string name="profile_battery">Akku-Profil aktiviert</string>
     <string name="profile_default">Profil auf Standard gesetzt</string>
     <string name="profile_performance">Leistungs-Profil aktiviert</string>
     <string name="profiles">Profile</string>
-    <string name="profiles_explanation">Wählen Sie vordefinierte L Speed-Geschwindigkeitsprofile, die bestimmen, in welcher Weise L Speed ausgeführt wird und die Systemeinstellungen ändert.</string>
     <string name="provides_support_text">Bietet Unterstützung 24/7</string>
     <string name="ram_manager">RAM-Verwaltung</string>
     <string name="ram_manager_balanced">Ausgeglichenes Profil aktiviert</string>
     <string name="ram_manager_default">Standard Profil aktiviert</string>
-    <string name="ram_manager_explanation">"Verbessert die Geschwindigkeit bei geringem Arbeitsspeicherstand.
-Berechnet die LMK-Einstellungen(LowMemoryKiller) basierend auf dem Arbeitsspeicher des jeweiligen Gerätes und gewählten Profil.
-
-Standard - Standard Gerätekonfiguration.
-
-Multitasking - Hält so viele Apps wie möglich im Arbeitsspeicher.
-
-Balanciert - Stellt ein Gleichgewicht zwischen Multitasking- und Spieleprofil (Gaming) her.
-
-Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung ohne Einbuße für Spiele bereitzustellen."</string>
     <string name="ram_manager_gaming">Gaming Profil aktiviert</string>
     <string name="ram_manager_multitask">Multitasking Profil aktiviert</string>
     <string name="ram_manager_options">RAM-Manager-Optionen</string>
@@ -562,69 +476,51 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="restrict_bluedroid_timer_wakelock">Beschränke Bluedroid-Timer-Wakelock</string>
     <string name="restrict_bluedroid_timer_wakelock_activated">Beschränke Bluedroid-Timer-Wakelock aktiviert</string>
     <string name="restrict_bluedroid_timer_wakelock_deactivated">Beschränke Bluedroid-Timer-Wakelock deaktiviert</string>
-    <string name="restrict_bluedroid_timer_wakelock_explanation">Diese Option beschränkt bluedroid_timer Wakelock von der Aktivierung.</string>
     <string name="restrict_bluesleep_wakelock">Beschränke Bluesleep-Wakelock</string>
     <string name="restrict_bluesleep_wakelock_activated">Beschränke Bluesleep-Wakelock aktiviert</string>
     <string name="restrict_bluesleep_wakelock_deactivated">Beschränke Bluesleep-Wakelock deaktiviert</string>
-    <string name="restrict_bluesleep_wakelock_explanation">Diese Option beschränkt den bluesleep wakelock davor sich selbst zu Aktivieren</string>
     <string name="restrict_ipa_ws">ipa_ws Wakelock einschränken</string>
     <string name="restrict_ipa_ws_activated">ipa_ws Wakelock einschränken aktiviert</string>
     <string name="restrict_ipa_ws_deactivated">ipa_ws Wakelock einschränken deaktiviert</string>
-    <string name="restrict_ipa_ws_explanation">Diese Option schränkt die Aktivierung des ipa_ws Wakelock ein.</string>
     <string name="restrict_msm_hsic_host_wakelock">Beschränke MSM-HSIC-HOST_Wakelock</string>
     <string name="restrict_msm_hsic_host_wakelock_activated">Beschränke MSM-HSIC-HOST_Wakelock aktiviert</string>
     <string name="restrict_msm_hsic_host_wakelock_deactivated">Beschränke MSM-HSIC-HOST_Wakelock deaktiviert</string>
-    <string name="restrict_msm_hsic_host_wakelock_explanation">Diese Option beschränkt den msm_hsic_host wakelock davor sich selbst zu Aktivieren</string>
     <string name="restrict_netlink_ws">Netzlink Wakelock einschränken</string>
     <string name="restrict_netlink_ws_activated">Netzlink Wakelock einschränken aktiviert</string>
     <string name="restrict_netlink_ws_deactivated">Restrict netlink Wakelock deaktiviert</string>
-    <string name="restrict_netlink_ws_explanation">Diese Option verhindert, dass der Netlink-Wakelock aktiviert wird.</string>
     <string name="restrict_qcom_rx_wakelock_ws">qcom_rx_wakelock_ws Wakelock einschränken</string>
     <string name="restrict_qcom_rx_wakelock_ws_activated">qcom_rx_wakelock_ws Wakelock einschränken aktiviert</string>
     <string name="restrict_qcom_rx_wakelock_ws_deactivated">qcom_rx_wakelock_ws Wakelock einschränken deaktiviert</string>
-    <string name="restrict_qcom_rx_wakelock_ws_explanation">Diese Option verhindert, dass qcom_rx_wakelock_ws wakelock_ws aktiviert wird.</string>
     <string name="restrict_sensor_ind_wakelock">Beschränke Sensor-IND-Wakelock</string>
     <string name="restrict_sensor_ind_wakelock_activated">Beschränke Sensor-IND-Wakelock aktiviert</string>
     <string name="restrict_sensor_ind_wakelock_deactivated">Beschränke Sensor-IND-Wakelock deaktiviert</string>
-    <string name="restrict_sensor_ind_wakelock_explanation">Diese Option beschränkt den Sensor-IND-Wakelock davor sich selbst zu Aktivieren wenn Ambient Display deaktiviert ist</string>
     <string name="restrict_smb135x_wakelock">Beschränke SMB135x-Wakelock</string>
     <string name="restrict_smb135x_wakelock_activated">Beschränke SMB135x-Wakelock aktiviert</string>
     <string name="restrict_smb135x_wakelock_deactivated">Beschränke SMB135x-Wakelock deaktiviert</string>
-    <string name="restrict_smb135x_wakelock_explanation">Diese Option beschränkt den SMB135x-Wakelock davor sich selbst zu Aktivieren wenn das Gerät an einer Stromquelle angeschlossen ist</string>
     <string name="restrict_timerfd_ws">Timerfd-Wakelock einschränken</string>
     <string name="restrict_timerfd_ws_activated">Timerfd-Wakelock einschränken aktiviert</string>
     <string name="restrict_timerfd_ws_deactivated">Timerfd-Wakelock einschränken deaktiviert</string>
-    <string name="restrict_timerfd_ws_explanation">Diese Option verhindert, dass die Timerfd-Wakelock aktiviert wird.</string>
     <string name="restrict_wlan_ctrl_wakelock">WLAN-CTRL-Wakelock einschränken</string>
     <string name="restrict_wlan_ctrl_wakelock_activated">WLAN-CTRL-Wakelock einschränken aktiviert</string>
     <string name="restrict_wlan_ctrl_wakelock_deactivated">WLAN-CTRL-Wakelock einschränken deaktiviert</string>
-    <string name="restrict_wlan_ctrl_wakelock_explanation">Diese Option schränkt den WLAN-CTRL-Wakelock davor ein, sich selbst zu aktivieren</string>
     <string name="restrict_wlan_extscan_wl_ws">WLAN_EXTSCAN_WL_WS-Wakelock einschränken</string>
     <string name="restrict_wlan_extscan_wl_ws_activated">WLAN_EXTSCAN_WL_WS-Wakelock einschränken aktivieren</string>
     <string name="restrict_wlan_extscan_wl_ws_deactivated">WLAN_EXTSCAN_WL_WS-Wakelock einschränken deaktivieren</string>
-    <string name="restrict_wlan_extscan_wl_ws_explanation">Diese Option schränkt die Aktivierung des WLAN_EXTSCAN_WL_WS-Wakelock ein.</string>
     <string name="restrict_wlan_rx_wakelock">WLAN-RX-Wakelock einschränken</string>
     <string name="restrict_wlan_rx_wakelock_activated">WLAN-RX-Wakelock einschränken aktiviert</string>
     <string name="restrict_wlan_rx_wakelock_deactivated">WLAN-RX-Wakelock einschränken deaktiviert</string>
-    <string name="restrict_wlan_rx_wakelock_explanation">Diese Option schrenkt den WLAN-RX-Wakelock davor ein, sich selbst zu Aktivieren</string>
     <string name="restrict_wlan_wakelock">WLAN-Wakelock einschränken</string>
     <string name="restrict_wlan_wakelock_activated">WLAN-Wakelock einschränken aktiviert</string>
     <string name="restrict_wlan_wakelock_deactivated">WLAN-Wakelock einschränken deaktiviert</string>
-    <string name="restrict_wlan_wakelock_explanation">Diese Option schränkt den WLAN-Wakelock davor ein, sich selbst zu Aktivieren</string>
     <string name="restrict_wlan_ws">WLAN_WS-Wakelock einschränken</string>
     <string name="restrict_wlan_ws_activated">WLAN_WS-Wakelock einschränken aktiviert</string>
     <string name="restrict_wlan_ws_deactivated">WLAN_WS-Wakelock einschränken deaktiviert</string>
-    <string name="restrict_wlan_ws_explanation">Diese Option schränkt die Aktivierung des WLAN_WS-Wakelock ein.</string>
     <string name="revert_parameters">Wie kann ich Änderungen an meinen Kernelparametern rückgängig machen?</string>
-    <string name="revert_parameters_explanation">Schalten Sie die Option, die Sie zurücksetzen möchten aus und führen Sie dann einen Neustart durch, Sie sollen ausgeglichen und startklar sein.</string>
     <string name="ril_tweak_activated">RIL-Optimierungen aktiviert</string>
     <string name="ril_tweak_deactivated">RIL-Optimierungen deaktiviert</string>
     <string name="ril_tweaks">RIL-Optimierungen</string>
-    <string name="ril_tweaks_explanation">Verbessert die mobile Datentransfergeschwindigkeit.</string>
-    <string name="root_explanation">L Speed benötigt Root, weil es Systemdateien modifiziert, die ohne Root nicht erreichbar sind</string>
     <string name="root_required">Root benötigt</string>
     <string name="root_safe">Ist das Rooten meines Gerätes sicher?</string>
-    <string name="root_safe_explanation">Das Rooten Deines Gerätes kann ein Riskiken enthalten. Allgemein ist es aber sicher, dies zu tun.</string>
     <string name="s1">Bild speichern</string>
     <string name="s2">Der Werbeanzeige erlauben, das Bild in der Bildergalerie zu speichern?</string>
     <string name="s3">Zustimmen</string>
@@ -640,13 +536,11 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="schedtune_boost">Schedtune-Boost</string>
     <string name="schedtune_boost_aggressive">Aggressiven Schedtune-Boost aktiviert</string>
     <string name="schedtune_boost_default">Schedtune-Boost ist auf Standard gesetzt</string>
-    <string name="schedtune_boost_explanation">Erhöhen Sie die Gesamtsystem-Leistung, indem Sie die CPU aggressiver mit geringem Einfluss auf die Akku-Lebensdauer einstellen.</string>
     <string name="schedtune_boost_light">Leichter SchedTune-Boost aktiviert</string>
     <string name="schedtune_boost_moderate">Mäßiger SchedTune-Boost aktiviert</string>
     <string name="scheduler_tuner">Scheduler-Tuner</string>
     <string name="scheduler_tuner_activated">Scheduler-Tuner aktiviert</string>
     <string name="scheduler_tuner_deactivated">Scheduler-Tuner deaktiviert</string>
-    <string name="scheduler_tuner_explanation">Optimiert den aktuellen Scheduler mit einem intelligenten Skalierungssystem für optimale Leistung und Akkulaufzeit</string>
     <string name="screen_brightness_set_to_auto">Bildschirmhelligkeit auf Autom. eingestellt</string>
     <string name="screen_off">Bildschirm aus</string>
     <string name="screen_timeout_set_to_more_than_15_seconds_decrease_it_to_15_seconds_to_save_power">Bildschirm-Timeout auf mehr als 15 Sekunden eingestellt, auf 15 Sekunden absenken, um Strom zu sparen.</string>
@@ -656,7 +550,6 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="sd_tweak">SD-Optimierungen</string>
     <string name="sd_tweak_activated">SD-Optimierungen aktiviert</string>
     <string name="sd_tweak_deactivated">SD-Optimierungen deaktiviert</string>
-    <string name="sd_tweak_explanation">Erhöht den Lesezwischenspeicher, um die Lese- und Schreibgeschwindigkeit zu verbessern.</string>
     <string name="search_for_hint">Suche nach</string>
     <string name="search_menu_title">Suchen</string>
     <string name="sec_10">10 Sek</string>
@@ -667,7 +560,6 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="sec_60">60 Sek</string>
     <string name="secondary_server">"Zweiter Server:\u0009 %1$sMB
 "</string>
-    <string name="secondary_server_explanation">"Dies ist ein Prozess (ein Dienst, den eine App benötigt), der lebendig und bereit ist, falls er benötigt wird, um etwas zu tun."</string>
     <string name="secondary_servers">Zweiter Server</string>
 
     <string name="senthil360_hint">Hauptentwickler</string>
@@ -691,13 +583,9 @@ Gaming - Hält so wenig Apps wie möglich im Arbeitsspeicher, um die Leistung oh
     <string name="status_not_charging">Wird nicht geladen</string>
     <string name="storage_permission_denied">Speicherzugriff verweigert</string>
     <string name="swappiness_tendency">Swapiness-Tendenz</string>
-    <string name="swappiness_tendency_explanation">"Steuert die Rate der Swap-Nutzung.
- Ein höherer Wert bedeutet, dass der Kernel den Swap aggressiver nutzen wird."</string>
     <string name="swappiness_tendency_state">Swappiness-Tendenz wird auf %1$s gesetzt</string>
     <string name="system_battery_saver_trigger_level">Auslösepegel des System-Akkusparers</string>
-    <string name="system_battery_saver_trigger_level_explanation">"Stelle den Prozentsatz des Akkus ein, der für die automatische Aktivierung des Akkusparers erforderlich ist.
 
-Der Prozentsatz kann zwischen 0-100 liegen."</string>
     <string name="system_battery_saver_trigger_level_set">Auslöse-Level %1$s</string>
     <string name="technology">"Technologie: %1$s
 "</string>
@@ -711,7 +599,6 @@ Der Prozentsatz kann zwischen 0-100 liegen."</string>
     <string name="total_ram">"Gesamt:\u0009 %1$sMB
 "</string>
     <string name="transition_animation_scale">Übergangs-Animationsskala</string>
-    <string name="transition_animation_scale_explanation">Skalierungsfaktor für Aktivitätsübergangsanimationen.</string>
     <string name="transition_animation_scale_set">Übergangs-Animationsskala auf %1$s gesetzt</string>
     <string name="translation">Übersetzung</string>
     <string name="translation_text">Helfe mir bei der Übersetzung dieser App</string>
@@ -719,20 +606,16 @@ Der Prozentsatz kann zwischen 0-100 liegen."</string>
     <string name="uiOpt">Optimierung der Benutzeroberfläche</string>
     <string name="unknown">Unbekannt</string>
     <string name="usage_with_mods">Kann ich es mit anderen Mods benutzen?</string>
-    <string name="usage_with_mods_explanation">Nein, es besteht die Gefahr, dass es zusammen mit anderen Mods zu Konflikten kommt.</string>
-    <string name="used_ram">"Verwendet:\u0009 %1$sMB
-"</string>
+
     <string name="vibrate_on_touch_turned_off">Vibrationen bei Berührung ausgeschaltet</string>
     <string name="vibration_turned_on_turn_it_off_to_save_power">Vibration eingeschaltet. Schalte diese aus, um Strom zu sparen</string>
     <string name="virtual_memory_tweaks">Virtueller Speicher optimiert</string>
     <string name="virtual_memory_tweaks_balanced">Ausgeglichene Optimierungen des virtuellen Speichers aktiviert</string>
     <string name="virtual_memory_tweaks_battery">Optimierungen des virtuellen Speichers des Akkus aktiviert</string>
     <string name="virtual_memory_tweaks_deactivated">Virtuelle Speicher-Optimierungen deaktiviert</string>
-    <string name="virtual_memory_tweaks_explanation">Optimiert den virtuellen Speicher mit Fokus auf Leistung, Akku oder ein Gleichgewicht zwischen beidem.</string>
     <string name="virtual_memory_tweaks_performance">Leistungssteigerung des virtuellen Speichers aktiviert</string>
     <string name="visible_app">"Sichbare App:\u0009 %1$sMB
 "</string>
-    <string name="visible_app_explanation">Dies ist eine App, die offen ist und im Hintergrund läuft, weil sie immer noch etwas tut.</string>
     <string name="visible_apps">Sichtbare Apps</string>
     <string name="volt">Spannung: %1$s mV</string>
     <string name="wakelocks">Wakelocks</string>
@@ -741,40 +624,25 @@ Der Prozentsatz kann zwischen 0-100 liegen."</string>
 Aufwachschwelle schreiben: %2$s"</string>
     <string name="welcome_to_l_speed">Willkommen bei L Speed</string>
     <string name="what_can_do">Was sind die Appbereiche von L Speed?</string>
-    <string name="what_can_do_explanation">Dein Gerät kann allgemein auf Geschwindigkeit und Akkulaufzeit optimiert werden.</string>
     <string name="what_is_lspeed">Was ist L Speed?</string>
-    <string name="what_is_lspeed_explanation">L Speed ist eine App, die Systemmodifikationen und -optimierungen kombiniert.</string>
     <string name="why_root">Warum benötigt es Root?</string>
-    <string name="why_root_explanation">Die App benötigt Root, da sie einige wichtige Dateien auf dem System ändert und das ohne Root nicht möglich ist</string>
     <string name="wi_fi_scanning_turned_on_turn_it_off_to_save_power">WLAN-Scannen eingeschaltet. Schalte es aus, um Strom zu sparen.</string>
-    <string name="wifi_idle_ms_explanation">Stelle das Intervall ein, das benötigt wird, um zu berücksichtigen, wenn WLAN im Leerlauf ist.</string>
     <string name="wifi_idle_ms_set">WLAN_IDLE_MS auf %1$sms gesetzt</string>
     <string name="wifi_max_dhcp_retry_count">WLAN max DHCP Wiederholungszahl</string>
-    <string name="wifi_max_dhcp_retry_explanation">"Die maximale Anzahl von Versuchen, eine Verbindung zu einem Zugangspunkt zu wiederholen, bei denen es uns nicht gelungen ist, eine IP-Adresse von DHCP zu erhalten.
-Ein Wert von N bedeutet, dass wir insgesamt N+1 Verbindungsversuche durchführen werden."</string>
-    <string name="wifi_mobile_data_transition_wakelock_explanation">Maximale Zeit in Millisekunden, um ein Wakelock zu halten, während man darauf wartet, dass nach einer Trennung von WLAN eine mobile Datenverbindung hergestellt wird.</string>
     <string name="wifi_mobile_data_transition_wakelock_timeout">WLAN mobile Datenübermittlung Wakelock Zeitüberschreitung</string>
     <string name="wifi_networks_available_repeat_delay">WLAN-Netzwerke verfügbar Wiederholungsverzögerung</string>
-    <string name="wifi_networks_available_repeat_delay_explanation">"Verzögerung (in Sekunden) vor der Wiederholung der Benachrichtigung über die verfügbaren WLAN-Netzwerke.
 Durch die Verbindung mit einem Netzwerk wird der Timer zurückgesetzt."</string>
-    <string name="why_root_explanation">Die App benötigt Root, da sie einige wichtige Dateien auf dem System ändert, dies ist ohne Root nicht möglich.</string>
     <string name="wifi_num_open_networks_kept">WLAN-Nummer offene Netzwerke beibehalten</string>
     <string name="wifi_scanning">WLAN-Scannen</string>
     <string name="wifi_scanning_activated">WLAN-Scannen aktiviert</string>
     <string name="wifi_scanning_deactivated">WLAN-Scannen deaktiviert</string>
-    <string name="wifi_scanning_explanation">Zwingt WLAN, im Hintergrund nach Access Points zu suchen, unabhängig vom Status.</string>
     <string name="wifi_supplicant_scan_interval">WLAN-Supplicant-Scan-Intervall</string>
-    <string name="wifi_supplicant_scan_interval_explanation">Lege das Intervall fest, wie oft WLAN in der Nähe von Access Points scannen soll.</string>
     <string name="wifi_supplicant_scan_interval_set">WLAN-Supplicant-Scan-Intervall auf %1$ssek eingestellt.</string>
     <string name="wifi_tweaks">WLAN-Optimierungen</string>
     <string name="wifi_watchdog">WLAN-Watchdog</string>
-    <string name="wifi_watchdog_explanation">"Ob der WLAN-Watchdog aktiviert ist.
-Dies ist nützlich für das Debugging."</string>
     <string name="window_animation_scale">Fensteranimation Maßstab</string>
-    <string name="window_animation_scale_explanation">Skalierungsfaktor für normale Fensteranimationen.</string>
     <string name="window_animation_scale_set">Fensteranimationsskala auf %1$s gesetzt</string>
     <string name="wipe_battery_stats">Akkustatistiken entfernen</string>
-    <string name="wipe_battery_stats_explanation">Entfernt die Akkustatistiken aus den Systemdaten.</string>
     <string name="wipe_cache">Lösche Zwischenspeicher-Partition</string>
     <string name="wipe_dalvik">Lösche Dalvik-Zwischenspeicher</string>
     <string name="wiping_battery_stats">Akkustatistiken entfernen</string>
@@ -785,5 +653,4 @@ Dies ist nützlich für das Debugging."</string>
     <string name="zram_optimization">zRAM-Optimierung</string>
     <string name="zram_optimization_activated">zRAM-Optimierungen aktiviert</string>
     <string name="zram_optimization_deactivated">zRAM-Optimierungen deaktiviert</string>
-    <string name="zram_optimization_explanation">Optimierung und Feintuning des ZRAM basierend auf empfohlenen Werten und RAM-Größe.</string>
 </resources>
